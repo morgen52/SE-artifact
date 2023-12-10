@@ -104,7 +104,7 @@ GITHUB_TOKEN = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" // your github token
 Then, you can add the infos by running the following commands:
 
 ```bash
-python3 pipeline.pipeline
+python3 -m pipeline.pipeline
 ```
 
 If you want to know more about the messages provided by Pylint and PMD, please refer to the following links:
