@@ -131,14 +131,41 @@ We convert the "data/documentary_fills.xlsx" into "data/documentary_fills.json" 
 python3 -m analysis.documentary_convert
 ```
 
-#### 3.2 Top-starred artifacts
+#### 3.2 Images
 
-
-#### 3.3 Images
+We use the following command to generate the images and tables used in our paper.
 
 ```bash
 python3 -m draw.draw
 ```
+
+This command will save the figures and tables in "images/*".
+
+#### 3.3 Top-starred artifacts
+
+We use the following command to generate the star ranking list ("data/github_star_ranking.csv").
+
+```bash
+python3 -m analysis.star
+```
+
+This script will generate "data/top_starred.xlsx" as a template. 
+We manually fill in the characteristic infomation of top-starred artifacts (whose star number surpasses 100), and save the results in "data/top_starred_fills.xlsx".
+
+We convert the "data/top_starred_fills.xlsx" into "data/top_starred_fills.csv" by running the following command:
+
+```bash
+python3 -m analysis.star_convert
+```
+
+#### 3.4 Other analysis
+
+You can find other analysis in "analysis/statistics.py", which can be run by the following command:
+
+```bash
+python3 -m analysis.statistics
+```
+
 
 ## Contact
 

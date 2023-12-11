@@ -768,7 +768,7 @@ def figure_document_situation(filename):
     total_doc_num = len(documentary_fills)
     for paper in documentary_fills:
         for category in categories:
-            if paper[category] == "Y":
+            if "Y" in paper[category]:
                 total_counts[category] += 1
     total_counts = {category: total_counts[category] / total_doc_num * 100 for category in categories}
 
@@ -892,7 +892,7 @@ figures = [
     # figure_invalid_url_ratio_by_storage_website,
     # [figure_java_code_smell, figure_python_code_smell],
     # figure_artifact_ratio_by_conference_and_year,
-    # figure_document_situation,
+    figure_document_situation,
 ]
 
 tables = [
