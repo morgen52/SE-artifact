@@ -2135,6 +2135,7 @@ ASE-2022-52	HTFuzz: Heap Operation Sequence Sensitive Fuzzing.	https://github.co
 ASE-2022-53	HyperAST: Enabling Efficient Analysis of Software Histories at Scale.	https://github.com/quentinLeDilavrec/HyperAST	True	i	f
 ASE-2022-54	ICEBAR: Feedback-Driven Iterative Repair of Alloy Specifications.	https://sites.google.com/view/icebarevaluation;https://github.com/saiema/ICEBAR	True	i	r
 ASE-2022-55	Identifying Solidity Smart Contract API Documentation Errors.	https://sites.google.com/view/doccon-tool;https://github.com/Chenguang-Zhu/DocCon	True	i	t
+ASE-2022-56	Inline Tests.	https://github.com/EngineeringSoftware/inlinetest	True	i	t
 ASE-2022-57	Insight: Exploring Cross-Ecosystem Vulnerability Impacts.	http://insight-clv-detection.com/	True	i	t
 ASE-2022-58	Is this Change the Answer to that Problem?: Correlating Descriptions of Bug and Code Changes for Evaluating Patch Correctness.	https://github.com/Trustworthy-Software/Quatrain	True	i	t
 ASE-2022-59	Jasmine: A Static Analysis Framework for Spring Core Technologies.	https://github.com/SpringJasmine/Jasmine	True	o	f
@@ -2172,7 +2173,7 @@ ASE-2022-90	Selectively Combining Multiple Coverage Goals in Search-Based Unit T
 ASE-2022-91	SelfAPR: Self-supervised Program Repair with Test Execution Diagnostics.	https://github.com/SophieHYe/SelfAPR	True	i	t
 ASE-2022-92	smartPip: A Smart Approach to Resolving Python Dependency Conflict Issues.	https://github.com/smartpip/smartpip	True	c	t
 ASE-2022-93	SmOOD: Smoothness-based Out-of-Distribution Detection Approach for Surrogate Neural Networks in Aircraft Design.				
-ASE-2022-94	So Many Fuzzers, So Little Time鉁: Experience from Evaluating Fuzzers on the Contiki-NG Network (Hay)Stack.				
+ASE-2022-94	So Many Fuzzers, So Little Time*: Experience from Evaluating Fuzzers on the Contiki-NG Network (Hay)Stack.				
 ASE-2022-95	Sorry, I don't Understand: Improving Voice User Interface Testing.				
 ASE-2022-96	StandUp4NPR: Standardizing SetUp for Empirically Comparing Neural Program Repair Systems.	https://github.com/kwz219/NPR4J	True	i	f
 ASE-2022-97	Static Type Recommendation for Python.	https://github.com/ksun212/Stray	True	i	t

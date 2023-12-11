@@ -3,11 +3,12 @@
 This repository contains the scripts, data, and results for our paper *Research Artifacts in Software Engineering Publications: Status and Trends*. 
 
 **Remark**: 
-- If you are only interested in the data we provided, `data/processed_papers.json` is all you need.
+- If you are only interested in the data we provided, `archive/processed_papers.json` is all you need. Our analysis scripts are based on this data.
 - See our website that provides extented information based on this artifact: [CS-Artifacts](http://ra.bdware.cn/)
 
 ## Directory Structure
 
+- `archive`: our data for paper lists (`archive/papers.json`) and paper metadata (`archive/processed_papers.json`)
 - `collection`: scripts for data collection
 - `pipeline`: scripts for data processing
 - `analysis`: scripts for data analysis
