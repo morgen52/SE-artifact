@@ -1,0 +1,154 @@
+{
+  "ASE": {
+    "2017": {
+      "Submission_deadline": "2017-5-12",
+      "Paper_notification": "2017-7-21",
+      "Camera-ready_deadline": "2017-9-9",
+      "Conference_time": "2017-11-3"
+    },
+    "2018": {
+      "Submission_deadline": "2018-4-26",
+      "Paper_notification": "2018-7-3",
+      "Camera-ready_deadline": "2018-7-24",
+      "Conference_time": "2018-9-7"
+    },
+    "2019": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2020": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2021": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2022": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    }
+  },
+  "FSE": {
+    "2017": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2018": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2019": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2020": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2021": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2022": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    }
+  },
+  "ICSE": {
+    "2017": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2018": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2019": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2020": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2021": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2022": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    }
+  },
+  "ISSTA": {
+    "2017": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2018": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2019": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2020": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2021": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    },
+    "2022": {
+      "Submission_deadline": "",
+      "Paper_notification": "",
+      "Camera-ready_deadline": "",
+      "Conference_time": ""
+    }
+  }
+}

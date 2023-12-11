@@ -56,7 +56,8 @@ def get_repo_info(repo_name: str) -> RepoInfo | None:
 
     issue_count = len(list(repo.get_issues(state="all")))
     open_issue_count = len(list(repo.get_issues(state="open")))
-    update_date = repo.updated_at
+    # update_date = repo.updated_at
+    update_date = repo.pushed_at
     
     return RepoInfo(
         repo_name=repo_name, 
