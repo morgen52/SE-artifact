@@ -28,7 +28,7 @@ cd SE-artifact
 pip install -r requirements.txt
 ```
 
-## Stages
+## Reproduce Stages
 
 We conduct our study in three stages: data collection, data processing, and data analysis.
 
