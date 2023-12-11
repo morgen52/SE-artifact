@@ -8693,7 +8693,7 @@
         "artifact_url": "https://github.com/anyone546/OCoR",
         "artifact_url_valid": "True",
         "url_location": "o",
-        "url_format": "j"
+        "url_format": "f"
     },
     {
         "paper_id": "ASE-2020-74",
@@ -14404,8 +14404,8 @@
         "title": "Object detection for graphical user interface: old fashioned or deep learning or a combination?",
         "artifact_url": "https://github.com/chenjshnn/Object-Detection-for-Graphical-User-Interface",
         "artifact_url_valid": "True",
-        "url_location": "-",
-        "url_format": "-"
+        "url_location": "",
+        "url_format": ""
     },
     {
         "paper_id": "FSE-2020-99",
@@ -14668,8 +14668,8 @@
         "title": "Vet: identifying and avoiding UI exploration tarpits.",
         "artifact_url": "https://github.com/VET-UI-Testing/main",
         "artifact_url_valid": "True",
-        "url_location": "-",
-        "url_format": "r"
+        "url_location": "",
+        "url_format": ""
     },
     {
         "paper_id": "FSE-2021-13",
@@ -15397,7 +15397,7 @@
         "artifact_url": "https://forms.office.com/r/WRvUNQisuR",
         "artifact_url_valid": "True",
         "url_location": "o",
-        "url_format": "m"
+        "url_format": "t"
     },
     {
         "paper_id": "FSE-2022-115",

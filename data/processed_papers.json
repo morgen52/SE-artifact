@@ -37662,7 +37662,7 @@
         "artifact_url": "https://github.com/anyone546/OCoR",
         "artifact_url_valid": "True",
         "url_location": "o",
-        "url_format": "j",
+        "url_format": "f",
         "repo_name": "anyone546/OCoR",
         "github_star": 8,
         "github_fork": 2,
@@ -64911,8 +64911,8 @@
         "title": "Object detection for graphical user interface: old fashioned or deep learning or a combination?",
         "artifact_url": "https://github.com/chenjshnn/Object-Detection-for-Graphical-User-Interface",
         "artifact_url_valid": "True",
-        "url_location": "-",
-        "url_format": "-",
+        "url_location": null,
+        "url_format": null,
         "repo_name": "chenjshnn/Object-Detection-for-Graphical-User-Interface",
         "github_star": 90,
         "github_fork": 23,
@@ -65804,8 +65804,8 @@
         "title": "Vet: identifying and avoiding UI exploration tarpits.",
         "artifact_url": "https://github.com/VET-UI-Testing/main",
         "artifact_url_valid": "True",
-        "url_location": "-",
-        "url_format": "r",
+        "url_location": null,
+        "url_format": null,
         "repo_name": "VET-UI-Testing/main",
         "github_star": 4,
         "github_fork": 2,
@@ -69133,7 +69133,7 @@
         "artifact_url": "https://forms.office.com/r/WRvUNQisuR",
         "artifact_url_valid": "True",
         "url_location": "o",
-        "url_format": "m",
+        "url_format": "t",
         "repo_name": null,
         "github_star": null,
         "github_fork": null,
@@ -74871,7 +74871,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 5
     },
@@ -74988,7 +74988,7 @@
         "github_update_date": "2022-12-15",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 7
     },
@@ -75009,7 +75009,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 3
     },
@@ -75031,7 +75031,7 @@
         "github_update_date": "2022-08-12",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 7
     },
@@ -75052,7 +75052,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 12
     },
@@ -75161,7 +75161,7 @@
                 "R1710": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 6
     },
@@ -75182,7 +75182,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -75203,7 +75203,7 @@
         "github_open_issues": 0,
         "github_update_date": "2022-05-22",
         "programming_language": "Jupyter Notebook",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -75253,7 +75253,7 @@
                 "R1714": 2
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -75274,7 +75274,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 2
     },
@@ -75296,7 +75296,7 @@
         "github_update_date": "2023-03-02",
         "programming_language": "Java",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 4
     },
@@ -75329,7 +75329,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3561163",
         "doi": "10.1145/3551349.3561163",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "chenpolong/TLNet",
         "github_star": 0,
         "github_fork": 0,
@@ -75442,7 +75442,7 @@
                 "E1101": 2
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 39
     },
@@ -75598,7 +75598,7 @@
                 "UseArraysAsList": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 6
     },
@@ -75620,7 +75620,7 @@
         "github_update_date": "2023-10-14",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 13
     },
@@ -75641,7 +75641,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 1
     },
@@ -75728,7 +75728,7 @@
                 "R0903": 3
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 1
     },
@@ -75749,7 +75749,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "artifact_service",
         "citation_count": 0
     },
@@ -75771,7 +75771,7 @@
         "github_update_date": "2023-10-26",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 21
     },
@@ -75792,7 +75792,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "temporary_drive_and_others",
         "citation_count": 6
     },
@@ -75814,7 +75814,7 @@
         "github_update_date": "2023-09-28",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 5
     },
@@ -75907,7 +75907,7 @@
                 "W0622": 3
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 8
     },
@@ -75928,7 +75928,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 3
     },
@@ -75949,7 +75949,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 1
     },
@@ -75998,7 +75998,7 @@
                 "R0915": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 8
     },
@@ -76012,7 +76012,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3556924",
         "doi": "10.1145/3551349.3556924",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "tcse-iscas/DT2",
         "github_star": 0,
         "github_fork": 0,
@@ -76059,7 +76059,7 @@
         "github_open_issues": 0,
         "github_update_date": "2023-11-01",
         "programming_language": "C",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 4
     },
@@ -76092,7 +76092,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3556901",
         "doi": "10.1145/3551349.3556901",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "HoneyAsclepius/HoneyAsclepius",
         "github_star": 0,
         "github_fork": 0,
@@ -76139,7 +76139,7 @@
         "github_open_issues": 0,
         "github_update_date": "2023-09-20",
         "programming_language": "Roff",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 1
     },
@@ -76242,7 +76242,7 @@
                 "R0904": 8
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -76332,7 +76332,7 @@
                 "R1705": 3
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 3
     },
@@ -76372,7 +76372,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 5
     },
@@ -76393,7 +76393,7 @@
         "github_open_issues": 1,
         "github_update_date": "2023-09-29",
         "programming_language": "Jupyter Notebook",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 4
     },
@@ -76504,7 +76504,7 @@
                 "I1101": 4
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 6
     },
@@ -76525,7 +76525,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 6
     },
@@ -76566,7 +76566,7 @@
         "github_update_date": "2023-10-13",
         "programming_language": "Java",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -76587,7 +76587,7 @@
         "github_open_issues": 1,
         "github_update_date": "2023-10-19",
         "programming_language": "C",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 3
     },
@@ -76608,7 +76608,7 @@
         "github_open_issues": 4,
         "github_update_date": "2023-10-03",
         "programming_language": "Rust",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -76629,7 +76629,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 3
     },
@@ -76650,7 +76650,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -76673,7 +76673,7 @@
         "github_open_issues": 1,
         "github_update_date": "2023-10-11",
         "programming_language": "Python",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github"
     },
     {
@@ -76693,7 +76693,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "temporary_drive_and_others",
         "citation_count": 2
     },
@@ -76715,7 +76715,7 @@
         "github_update_date": "2023-08-13",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 8
     },
@@ -76829,7 +76829,7 @@
                 "AvoidFileStream": 3
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -76850,7 +76850,7 @@
         "github_open_issues": 0,
         "github_update_date": "2022-09-02",
         "programming_language": "C",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -76871,7 +76871,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 9
     },
@@ -76981,7 +76981,7 @@
                 "R0916": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 10
     },
@@ -77021,7 +77021,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 3
     },
@@ -77098,7 +77098,7 @@
                 "R1734": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -77166,7 +77166,7 @@
                 "R1734": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 3
     },
@@ -77187,7 +77187,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 6
     },
@@ -77265,7 +77265,7 @@
                 "R1714": 2
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 14
     },
@@ -77286,7 +77286,7 @@
         "github_open_issues": 0,
         "github_update_date": "2023-10-22",
         "programming_language": "TypeScript",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 5
     },
@@ -77307,7 +77307,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 3
     },
@@ -77329,7 +77329,7 @@
         "github_update_date": "2023-07-12",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 4
     },
@@ -77444,7 +77444,7 @@
                 "E0602": 2
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -77465,7 +77465,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 3
     },
@@ -77505,7 +77505,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "temporary_drive_and_others",
         "citation_count": 21
     },
@@ -77527,7 +77527,7 @@
         "github_update_date": "2022-10-21",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 8
     },
@@ -77548,7 +77548,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 6
     },
@@ -77562,7 +77562,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3556916",
         "doi": "10.1145/3551349.3556916",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "QVIP22/Data",
         "github_star": 0,
         "github_fork": 0,
@@ -77647,7 +77647,7 @@
                 "W1202": 2
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 11
     },
@@ -77668,7 +77668,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 1
     },
@@ -77732,7 +77732,7 @@
                 "R1703": 2
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -77788,7 +77788,7 @@
                 "W0105": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 3
     },
@@ -77809,7 +77809,7 @@
         "github_open_issues": 7,
         "github_update_date": "2023-05-30",
         "programming_language": "C++",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -77892,7 +77892,7 @@
                 "R1707": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 1
     },
@@ -77913,7 +77913,7 @@
         "github_open_issues": 0,
         "github_update_date": "2022-08-25",
         "programming_language": "C",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 1
     },
@@ -77934,7 +77934,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 8
     },
@@ -77955,7 +77955,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 3
     },
@@ -78062,7 +78062,7 @@
                 "AvoidFileStream": 3
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 24
     },
@@ -78184,7 +78184,7 @@
                 "E0202": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 4
     },
@@ -78263,7 +78263,7 @@
         "github_update_date": "2023-07-01",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 10
     },
@@ -78285,7 +78285,7 @@
         "github_update_date": "2022-05-04",
         "programming_language": "Python",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 2
     },
@@ -78299,7 +78299,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3556970",
         "doi": "10.1145/3551349.3556970",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "qixin5/debloating_study",
         "github_star": 4,
         "github_fork": 1,
@@ -78327,7 +78327,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 2
     },
@@ -78348,7 +78348,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": false,
+        "artifact_url_valid": "False",
         "storage_website_type": "github",
         "citation_count": 5
     },
@@ -78424,7 +78424,7 @@
                 "R0912": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 13
     },
@@ -78508,7 +78508,7 @@
                 "I1101": 4
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 4
     },
@@ -78529,7 +78529,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "artifact_service",
         "citation_count": 6
     },
@@ -78550,7 +78550,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 4
     },
@@ -78571,7 +78571,7 @@
         "github_open_issues": 0,
         "github_update_date": "2023-10-26",
         "programming_language": "CMake",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 5
     },
@@ -78738,7 +78738,7 @@
                 "StringToString": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 5
     },
@@ -78759,7 +78759,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 10
     },
@@ -78820,7 +78820,7 @@
                 "R1710": 1
             }
         },
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 8
     },
@@ -78860,7 +78860,7 @@
         "github_open_issues": 0,
         "github_update_date": "2022-11-23",
         "programming_language": "R",
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -78881,7 +78881,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "temporary_drive_and_others",
         "citation_count": 2
     },
@@ -78895,7 +78895,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3561157",
         "doi": "10.1145/3551349.3561157",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "Yuanyuan-Yuan/Decision-Oracle",
         "github_star": 4,
         "github_fork": 0,
@@ -78924,7 +78924,7 @@
         "github_update_date": "2023-11-17",
         "programming_language": "Java",
         "code_smells": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "github",
         "citation_count": 0
     },
@@ -78945,7 +78945,7 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "storage_website_type": "personal_homepage",
         "citation_count": 5
     },
@@ -78959,7 +78959,7 @@
         "paper_link": "https://doi.org/10.1145/3551349.3556895",
         "doi": "10.1145/3551349.3556895",
         "pages": 1,
-        "artifact_url_valid": true,
+        "artifact_url_valid": "True",
         "repo_name": "drhaozhong/thex",
         "github_star": 0,
         "github_fork": 0,

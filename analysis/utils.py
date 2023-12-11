@@ -25,6 +25,9 @@ def set_minimum_height(heights, min_value):
 def has_artifact(paper):
     return paper["artifact_url"].strip() != ""
 
+def has_no_artifact(paper):
+    return paper["artifact_url"].strip() == ""
+
 def get_storage_website(paper):
     storage_websites = [
         ("GitHub", re.compile(r"github\.com")), # https://github.com/Lizenan1995/DNNOpAcc
@@ -57,7 +60,44 @@ def get_programming_language(paper):
     elif language == "Java":
         return "Java"
     else:
+        return language
+    
+def get_url_location(paper):
+    if paper["url_location"] == "":
         return None
+    url_location = paper["url_location"]
+
+    if url_location == "a":
+        return "Abstract"
+    elif url_location == "i":
+        return "Introduction"
+    elif url_location == "c":
+        return "Conclusion"
+    elif url_location == "o":
+        return "Others"
+    elif url_location == "t":
+        return "Title"
+    else:
+        return url_location
+
+def get_url_format(paper):
+    if paper["url_format"] == "":
+        return None
+    url_format = paper["url_format"]
+    
+    if url_format == "f":
+        return "Footnote"
+    elif url_format == "r":
+        return "Reference"
+    elif url_format == "t":
+        return "In-text"
+    elif url_format == "h":
+        return "Hyperlink"
+    elif url_format == "s":
+        return "Section"
+    else:
+        return url_format
+
 
 def artifact_url_valid(paper):
     if "artifact_url_valid" in paper:

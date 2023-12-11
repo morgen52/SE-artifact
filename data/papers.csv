@@ -1085,7 +1085,7 @@ ASE-2020-69	Generating Concept based API Element Comparison Using a Knowledge Gr
 ASE-2020-70	Multiplex Symbolic Execution: Exploring Multiple Paths by Solving Once.				
 ASE-2020-71	Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling.				
 ASE-2020-72	Detecting and Explaining Self-Admitted Technical Debts with Attention-based Neural Networks.				
-ASE-2020-73	OCoR: An Overlapping-Aware Code Retriever.	https://github.com/anyone546/OCoR	True	o	j
+ASE-2020-73	OCoR: An Overlapping-Aware Code Retriever.	https://github.com/anyone546/OCoR	True	o	f
 ASE-2020-74	Understanding Performance Concerns in the API Documentation of Data Science Libraries.	https://doi.org/10.5281/zenodo.3972069	True	i	r
 ASE-2020-75	On the Effectiveness of Unified Debugging: An Extensive Study on 16 Program Repair Systems.	https://github.com/ProdigyXable/UnifiedDebuggingStudy	True	i	r
 ASE-2020-76	Automated Third-Party Library Detection for Android Applications: Are We There Yet?	https://sites.google.com/view/libdetect/	True	o	f
@@ -1799,7 +1799,7 @@ FSE-2020-94	Efficient binary-level coverage analysis.	https://doi.org/10.5281/ze
 FSE-2020-95	Efficiently finding higher-order mutants.	https://github.com/poosomooso/SSHOM-Search	True	o	t
 FSE-2020-96	Evolutionary improvement of assertion oracles.				
 FSE-2020-97	FrUITeR: a framework for evaluating UI test reuse.	https://felicitia.github.io/FrUITeR/;https://github.com/felicitia/FrUITeR	True	i	r
-FSE-2020-98	Object detection for graphical user interface: old fashioned or deep learning or a combination?	https://github.com/chenjshnn/Object-Detection-for-Graphical-User-Interface	True	-	-
+FSE-2020-98	Object detection for graphical user interface: old fashioned or deep learning or a combination?	https://github.com/chenjshnn/Object-Detection-for-Graphical-User-Interface	True		
 FSE-2020-99	Understanding and automatically detecting conflicting interactions between smart home IoT applications.	http://plrg.ics.uci.edu/iotcheck/	True	i	t
 FSE-2020-100	When does my program do this? learning circumstances of software behavior.	https://zenodo.org/record/3902142	True	c	t
 FSE-2021-111	Turnover-induced knowledge loss in practice.				
@@ -1832,7 +1832,7 @@ FSE-2021-8	Code integrity attestation for PLCs using black box neural network pr
 FSE-2021-9	PHYSFRAME: type checking physical frames of reference for robotic systems.	https://doi.org/10.5281/zenodo.4959920	True	o	t
 FSE-2021-10	Automating serverless deployments for DevOps organizations.	https://doi.org/10.5281/zenodo.4873909	True	o	r
 FSE-2021-11	Algebraic-datatype taint tracking, with applications to understanding Android identifier leaks.	https://github.com/sujon335/AlgebraicDatatypeTaintTracker	True	i	f
-FSE-2021-12	Vet: identifying and avoiding UI exploration tarpits.	https://github.com/VET-UI-Testing/main	True	-	r
+FSE-2021-12	Vet: identifying and avoiding UI exploration tarpits.	https://github.com/VET-UI-Testing/main	True		
 FSE-2021-13	Checking conformance of applications against GUI policies.				
 FSE-2021-14	Data-driven accessibility repair revisited: on the effectiveness of generating labels for icons in Android apps.	https://github.com/fmehralian/COALA	True	i	r
 FSE-2021-15	Benchmarking automated GUI testing for Android against real-world bugs.				
@@ -1923,7 +1923,7 @@ FSE-2021-99	Symbolic parallel adaptive importance sampling for probabilistic pro
 FSE-2021-100	IDE support for cloud-based static analyses.				
 FSE-2021-101	A bounded symbolic-size model for symbolic execution.	https://github.com/davidtr1037/klee-symsize;https://doi.org/10.6084/m9.figshare.14724453	True	o	f
 FSE-2022-113	Achievement unlocked: a case study on gamifying DevOps practices in industry.				
-FSE-2022-114	Sometimes you have to treat the symptoms: tackling model drift in an industrial clone-and-own software product line.	https://forms.office.com/r/WRvUNQisuR	True	o	m
+FSE-2022-114	Sometimes you have to treat the symptoms: tackling model drift in an industrial clone-and-own software product line.	https://forms.office.com/r/WRvUNQisuR	True	o	t
 FSE-2022-115	Input splitting for cloud-based static application security testing platforms.				
 FSE-2022-116	Metadata-based retrieval for resolution recommendation in AIOps.				
 FSE-2022-117	Workgraph: personal focus vs. interruption for engineers at Meta.				
