@@ -411,9 +411,6 @@ def figure_url_format(filename):
     plt.tight_layout()
     plt.savefig(filename)
 
-def table_RQ(filename):
-    print("Skipping...")
-
 def table_artifact_ratio_by_conference_and_year(filename):
     """
     Table 2
@@ -473,8 +470,57 @@ def table_maintenance_situation(filename):
     2017-2022. Each number presents the ratio of artifacts that
     gets updated after each key time point
     """
-    print("Not implemented...")
-    #TODO ask where to get conference ddl
+    dates = ["Submission_deadline", "Paper_notification", "Camera-ready_deadline", "Conference_time"]
+    with open("data/conf_dates.json", "r") as f:
+        conf_dates = json.load(f)
+    confs = ["ASE", "FSE", "ICSE", "ISSTA"]
+
+    results = {}
+    count = {}
+    for venue in confs:
+        results[venue] = {}
+        count[venue] = {}
+        for year in years:
+            results[venue][year] = {}
+            count[venue][year] = 0
+            for date in dates:
+                results[venue][year][date] = 0
+    
+    def later_than(date1, date2): # return date1 > date2
+        y1, m1, d1 = map(int, date1.split("-"))
+        y2, m2, d2 = map(int, date2.split("-"))
+        if y1 > y2:
+            return True
+        elif y1 == y2:
+            if m1 > m2:
+                return True
+            elif m1 == m2:
+                if d1 > d2:
+                    return True
+        return False
+    
+    for paper in papers:
+        venue, year, _ = paper["paper_id"].split("-")
+        year = int(year)
+        if paper["github_update_date"]:
+            count[venue][year] += 1
+            for date in dates:
+                if later_than(paper["github_update_date"], conf_dates[venue][str(year)][date]):
+                    results[venue][year][date] += 1
+    
+    writer = csv.writer(open(filename, "w"))
+    head_row = ["Conference", "Year", "Submission deadline", "Paper notification", "Camera-ready deadline", "Conference time"]
+    writer.writerow(head_row)
+    for venue in confs:
+        for year in years:
+            row = [venue, year]
+            for date in dates:
+                row.append("%.1lf%%" % (results[venue][year][date] / count[venue][year] * 100))
+            writer.writerow(row)
+        row = [venue, "Average"]
+        for date in dates:
+            row.append("%.1lf%%" % (sum(results[venue][y][date] for y in years) / sum(count[venue][y] for y in years) * 100))
+        writer.writerow(row)
 
 def table_star_distribution(filename):
     """
@@ -742,25 +788,121 @@ def figure_document_situation(filename):
     plt.savefig(filename, bbox_inches="tight")
 
 
+def table_issue_distribution(filename):
+    """
+    Table 4
+    The distribution of issue numbers of SE artifacts from 2017 to
+    2022. Each number presents the ratio of artifacts whose star
+    numbers belong to the range in the first column.
+    """
+    issue_ranges = [(0, 0), (1, 5), (6, 10), (11, 20), (21, 50), (51, 100), (100, -1)]
+
+    def get_issue_range(index) -> Tuple[str, Callable[[int], bool]]:
+        if index == 0:
+            return "0", lambda x: x == 0
+        if index == 6:
+            return "100+", lambda x: x >= 100
+        l, r = issue_ranges[index]
+        return f"{l}-{r}", lambda x: l <= x <= r
+
+    def get_issue_index(issue):
+        for i in range(len(issue_ranges)):
+            _, func = get_issue_range(i)
+            if func(issue):
+                return i
+        return -1
+
+    df = pd.DataFrame(papers)
+    df["github_issues"] = df.apply(lambda x: x["github_issues"]+x["github_open_issues"] if x["github_issues"] else 0, axis=1)
+    df = df[df["github_issues"].notnull()]
+    df["issue_index"] = df.apply(lambda x: get_issue_index(x["github_issues"]), axis=1)
+
+    df = df.groupby("year")["issue_index"].value_counts().unstack(fill_value=0)
+    total = df.sum().sum()
+
+    last_row = ["average"]
+    for i in range(len(issue_ranges)):
+        last_row.append("%.1lf%%" % (df.loc[:, i].sum() / total * 100))
+
+    df = df.div(df.sum(axis=1), axis=0).multiply(100)
+
+    writer = csv.writer(open(filename, "w"))
+
+    head_row = ["year"] + [get_issue_range(i)[0] for i in range(len(issue_ranges))]
+    writer.writerow(head_row)
+
+    for year in years:
+        row = [year]
+        for i in range(len(issue_ranges)):
+            row.append("%.1lf%%" % df.loc[year, i])
+        writer.writerow(row)
+
+    writer.writerow(last_row)
+
+
+def table_fork_distribution(filename):
+    fork_ranges = [(0, 0), (1, 5), (6, 10), (11, 20), (21, 50), (51, 100), (100, -1)]
+
+    def get_fork_range(index) -> Tuple[str, Callable[[int], bool]]:
+        if index == 0:
+            return "0", lambda x: x == 0
+        if index == 6:
+            return "100+", lambda x: x >= 100
+        l, r = fork_ranges[index]
+        return f"{l}-{r}", lambda x: l <= x <= r
+
+    def get_fork_index(fork):
+        for i in range(len(fork_ranges)):
+            _, func = get_fork_range(i)
+            if func(fork):
+                return i
+        return -1
+
+    df = pd.DataFrame(papers)
+    df = df[df["github_fork"].notnull()]
+    df["fork_index"] = df.apply(lambda x: get_fork_index(x["github_fork"]), axis=1)
+    df = df.groupby("year")["fork_index"].value_counts().unstack(fill_value=0)
+    total = df.sum().sum()
+
+    last_row = ["average"]
+    for i in range(len(fork_ranges)):
+        last_row.append("%.1lf%%" % (df.loc[:, i].sum() / total * 100))
+
+    df = df.div(df.sum(axis=1), axis=0).multiply(100)
+
+    writer = csv.writer(open(filename, "w"))
+
+    head_row = ["year"] + [get_fork_range(i)[0] for i in range(len(fork_ranges))]
+    writer.writerow(head_row)
+
+    for year in years:
+        row = [year]
+        for i in range(len(fork_ranges)):
+            row.append("%.1lf%%" % df.loc[year, i])
+        writer.writerow(row)
+
+    writer.writerow(last_row)
+
 figures = [
-    figure_ratio_with_artifact,
-    figure_distribution_storage_website,
-    figure_artifact_by_programming_language,
-    [figure_url_location, figure_url_format],
-    figure_invalid_url_ratio_by_year,
-    figure_invalid_url_ratio_by_storage_website,
-    [figure_java_code_smell, figure_python_code_smell],
-    figure_artifact_ratio_by_conference_and_year,
-    figure_document_situation,
+    # figure_ratio_with_artifact,
+    # figure_distribution_storage_website,
+    # figure_artifact_by_programming_language,
+    # [figure_url_location, figure_url_format],
+    # figure_invalid_url_ratio_by_year,
+    # figure_invalid_url_ratio_by_storage_website,
+    # [figure_java_code_smell, figure_python_code_smell],
+    # figure_artifact_ratio_by_conference_and_year,
+    # figure_document_situation,
 ]
 
 tables = [
-    table_RQ,
-    table_artifact_ratio_by_conference_and_year,
-    table_maintenance_situation,
+    # table_artifact_ratio_by_conference_and_year,
+    # table_maintenance_situation,
     table_star_distribution,
-    table_document_situation,
-    table_top_code_smell
+    # table_document_situation,
+    # table_top_code_smell,
+    table_issue_distribution,
+    table_fork_distribution,
 ]
 
 def draw():
@@ -785,7 +927,6 @@ def draw():
             continue
         print(f"drawing table {idx}: {table.__name__}")
         table(filename)
-
 
 if __name__ == "__main__":
     draw()
