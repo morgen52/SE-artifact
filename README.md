@@ -6,6 +6,10 @@ This repository contains the scripts, data, and results for our paper *Research 
 - If you are only interested in the data we provided, `archive/processed_papers.json` is all you need. Our analysis scripts are based on this data.
 - See our website that provides extented information based on this artifact: [CS-Artifacts](http://ra.bdware.cn/)
 
+## Milestones
+- 2023.12.12 release version "0.1.0" as the artifact for submission to JSS. [![DOI](https://zenodo.org/badge/729880425.svg)](https://zenodo.org/doi/10.5281/zenodo.10365503)
+
+
 ## Directory Structure
 
 - `archive`: our data for paper lists (`archive/papers.json`) and paper metadata (`archive/processed_papers.json`)
