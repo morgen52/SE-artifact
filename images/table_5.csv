@@ -11,6 +11,9 @@ Python,Refactor,254/268,R1705,9.9%
 Java,Best Practices,144/144,SystemPrintln,15.8%
 Java,Best Practices,144/144,LooseCoupling,8.7%
 Java,Best Practices,144/144,UnusedAssignment,8.7%
+Java,Multithreading,134/144,DoNotUseThreads,34.9%
+Java,Multithreading,134/144,UseConcurrentHashMap,32.4%
+Java,Multithreading,134/144,AvoidSynchronizedAtMethodLevel,21.4%
 Java,Code Style,144/144,LocalVariableCouldBeFinal,26.5%
 Java,Code Style,144/144,MethodArgumentCouldBeFinal,22.2%
 Java,Code Style,144/144,ShortVariable,11.5%
@@ -23,9 +26,6 @@ Java,Documentation,144/144,UncommentedEmptyMethodBody,1.2%
 Java,Error Prone,140/144,AvoidLiteralsInIfCondition,22.1%
 Java,Error Prone,140/144,AvoidDuplicateLiterals,10.7%
 Java,Error Prone,140/144,DetachedTestCase,9.0%
-Java,Multithreading,134/144,DoNotUseThreads,34.9%
-Java,Multithreading,134/144,UseConcurrentHashMap,32.4%
-Java,Multithreading,134/144,AvoidSynchronizedAtMethodLevel,21.4%
 Java,Performance,141/144,AvoidInstantiatingObjectsInLoops,37.8%
 Java,Performance,141/144,RedundantFieldInitializer,16.7%
 Java,Performance,141/144,ConsecutiveAppendsShouldReuse,8.9%

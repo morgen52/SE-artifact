@@ -42,20 +42,20 @@ storage_websites = ["GitHub", "Zenodo", "GitHub.io", "Google.com", "Others"]
 programming_languages = ["Python", "Java", "C/C++"]
 java_code_smells = [
     "bestpractices",
+    "multithreading",
     "codestyle",
     "design",
     "documentation",
     "errorprone",
-    "multithreading",
     "performance",
 ]
 java_code_smells_label = [
     "Best Practices",
+    "Multithreading",
     "Code Style",
     "Design",
     "Documentation",
     "Error Prone",
-    "Multithreading",
     "Performance",
 ]
 python_code_smells = ["convention", "warning", "refactor"]
@@ -90,7 +90,7 @@ def draw_stacked_bar_chart(df, ax, colnames, yaxis_type):
                     xy=(rect.get_x() + rect.get_width() / 2, rect.get_y() + h / 2),
                     ha="center",
                     va="center",
-                    fontsize=MEDIUM_SIZE,
+                    fontsize=LABEL_SIZE,
                     color=text_color,
                 )
 
@@ -154,14 +154,14 @@ def figure_distribution_storage_website(filename):
     fig, ax = plt.subplots(figsize=(6, 4))
     draw_stacked_bar_chart(df, ax, storage_websites, "percentage")
     lgd = ax.legend(
-        ncols=len(storage_websites),
-        bbox_to_anchor=(0.5, 1.1),
+        ncols=3,
+        bbox_to_anchor=(0.5, 1.25),
         loc="upper center",
-        fontsize=SMALL_SIZE,
+        fontsize=LABEL_SIZE,
         columnspacing=0.8,
     )
-    plt.xticks(fontsize=TICK_SIZE)
-    plt.yticks(fontsize=TICK_SIZE)
+    plt.xticks(fontsize=LABEL_SIZE)
+    plt.yticks(fontsize=LABEL_SIZE)
     # ax.set_xlabel("Year", fontsize=LABEL_SIZE)
     ax.set_ylabel("Percentage (%)", fontsize=LABEL_SIZE)
     plt.tight_layout()
@@ -205,13 +205,13 @@ def figure_artifact_by_programming_language(filename):
                     xy=(rect.get_x() + rect.get_width() / 2, rect.get_y() + h / 2),
                     ha="center",
                     va="center",
-                    fontsize=MEDIUM_SIZE,
+                    fontsize=LABEL_SIZE,
                     color=text_color,
                 )
 
-    lgd = ax.legend(fontsize=MEDIUM_SIZE)
-    plt.xticks(fontsize=TICK_SIZE)
-    plt.yticks(fontsize=TICK_SIZE)
+    lgd = ax.legend(fontsize=LABEL_SIZE, loc="upper left")
+    plt.xticks(fontsize=LABEL_SIZE)
+    plt.yticks(fontsize=LABEL_SIZE)
     # ax.set_xlabel("Year", fontsize=LABEL_SIZE)
     ax.set_ylabel("Number", fontsize=LABEL_SIZE)
     plt.tight_layout()
@@ -238,9 +238,9 @@ def figure_invalid_url_ratio_by_year(filename):
     fig, ax = plt.subplots(figsize=(6, 4))
     draw_stacked_bar_chart(df, ax, columns, "percentage")
 
-    lgd = ax.legend(fontsize=MEDIUM_SIZE, loc="lower right")
-    plt.xticks(fontsize=TICK_SIZE)
-    plt.yticks(fontsize=TICK_SIZE)
+    lgd = ax.legend(fontsize=LABEL_SIZE, loc="lower right")
+    plt.xticks(fontsize=LABEL_SIZE)
+    plt.yticks(fontsize=LABEL_SIZE)
     # ax.set_xlabel("Year", fontsize=LABEL_SIZE)
     ax.set_ylabel("Percentage (%)", fontsize=LABEL_SIZE)
     plt.tight_layout()
@@ -279,11 +279,11 @@ def figure_invalid_url_ratio_by_storage_website(filename):
     ax.bar(x, invalid_url, width, bottom=valid_url, label="Unavailable artifacts")
     # set text
     for i, (valid, invalid) in enumerate(zip(valid_url, invalid_url)):
-        ax.text(x[i], valid / 2, f"{valid:.1f}%", ha="center", va="center", fontsize=MEDIUM_SIZE)
-        ax.text(x[i], (valid + invalid / 2), f"{invalid:.1f}%", ha="center", va="center", fontsize=MEDIUM_SIZE)
-    lgd = ax.legend(fontsize=MEDIUM_SIZE, loc="lower right")
-    plt.xticks(x, x_labels, fontsize=TICK_SIZE)
-    plt.yticks(fontsize=TICK_SIZE)
+        ax.text(x[i], valid / 2, f"{valid:.1f}%", ha="center", va="center", fontsize=LABEL_SIZE)
+        ax.text(x[i], (valid + invalid / 2), f"{invalid:.1f}%", ha="center", va="center", fontsize=LABEL_SIZE)
+    lgd = ax.legend(fontsize=LABEL_SIZE, loc="lower right")
+    plt.xticks(x, x_labels, fontsize=LABEL_SIZE)
+    plt.yticks(fontsize=LABEL_SIZE)
     # ax.set_xlabel("Storage Website", fontsize=LABEL_SIZE)
     plt.ylabel("Percentage (%)", fontsize=LABEL_SIZE)
     plt.tight_layout()
@@ -291,7 +291,7 @@ def figure_invalid_url_ratio_by_storage_website(filename):
 
 def draw_pie_graph(ax, data, startangle):
     wedges, text = ax.pie(
-        data, colors=sns.color_palette("Set2", 8), startangle=startangle
+        data, startangle=startangle, colors=sns.set_palette(soft_color_palette), wedgeprops=dict(width=0.5)
     )
 
     kw = dict(arrowprops=dict(arrowstyle="-"), va="center")
@@ -309,7 +309,7 @@ def draw_pie_graph(ax, data, startangle):
             xytext=(1.2 * np.sign(x), 1.3 * y),
             horizontalalignment=horizontalalignment,
             **kw,
-            fontsize=SMALL_SIZE,
+            fontsize=10,
         )
     return wedges
 
@@ -330,8 +330,8 @@ def draw_code_smell_pie_graph(ax, df, categories, categories_label, startangle):
         categories_label,
         ncols=2,
         loc="lower center",
-        bbox_to_anchor=(0.5, -0.5),
-        fontsize=SMALL_SIZE,
+        bbox_to_anchor=(0.5, -0.35) if "convention" in categories else (0.5, -0.8),
+        fontsize=TICK_SIZE,
         columnspacing=0.8,
     )
 
@@ -346,7 +346,7 @@ def figure_java_code_smell(filename):
     df = df[df["code_smells"].notnull()]
     draw_code_smell_pie_graph(ax, df, java_code_smells, java_code_smells_label, 20)
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(filename, bbox_inches="tight")
 
 def figure_python_code_smell(filename):
     """
@@ -359,7 +359,7 @@ def figure_python_code_smell(filename):
     df = df[df["code_smells"].notnull()]
     draw_code_smell_pie_graph(ax, df, python_code_smells, python_code_smells_label, -40)
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(filename, bbox_inches="tight")
 
 def figure_url_location(filename):
     """
@@ -372,19 +372,26 @@ def figure_url_location(filename):
     )
     df = df.explode("url_location").value_counts()
     counts = df.values / df.values.sum() * 100
+
+    print(counts)
+    target_order = ["Abstract", "Introduction", "Title", "Others", "Conclusion"]
+    target_index = [df.index.tolist().index(target) for target in target_order]
+    counts = counts[target_index]
+    print(counts)
+
     fig, ax = plt.subplots(figsize=(2.5, 3))
     wedges = draw_pie_graph(ax, counts, 20)
     ax.legend(
         wedges,
-        df.index,
+        target_order,
         ncols=2,
         loc="lower center",
-        bbox_to_anchor=(0.5, -0.5),
-        fontsize=SMALL_SIZE,
+        bbox_to_anchor=(0.5, -0.65),
+        fontsize=TICK_SIZE,
         columnspacing=0.8,
     )
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(filename, bbox_inches="tight")
 
 def figure_url_format(filename):
     """
@@ -404,12 +411,12 @@ def figure_url_format(filename):
         df.index,
         ncols=2,
         loc="lower center",
-        bbox_to_anchor=(0.5, -0.5),
-        fontsize=SMALL_SIZE,
+        bbox_to_anchor=(0.5, -0.3),
+        fontsize=TICK_SIZE,
         columnspacing=0.8,
     )
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(filename, bbox_inches="tight")
 
 def table_artifact_ratio_by_conference_and_year(filename):
     """
