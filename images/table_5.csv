@@ -8,24 +8,24 @@ Python,Warning,258/268,W0621,5.0%
 Python,Refactor,254/268,R1732,13.1%
 Python,Refactor,254/268,R0914,10.9%
 Python,Refactor,254/268,R1705,9.9%
-Java,Best Practices,144/145,SystemPrintln,15.8%
-Java,Best Practices,144/145,LooseCoupling,8.7%
-Java,Best Practices,144/145,UnusedAssignment,8.7%
-Java,Code Style,144/145,LocalVariableCouldBeFinal,26.5%
-Java,Code Style,144/145,MethodArgumentCouldBeFinal,22.2%
-Java,Code Style,144/145,ShortVariable,11.5%
-Java,Design,144/145,LawOfDemeter,29.3%
-Java,Design,144/145,CyclomaticComplexity,8.6%
-Java,Design,144/145,CognitiveComplexity,6.7%
-Java,Documentation,144/145,CommentSize,49.8%
-Java,Documentation,144/145,CommentRequired,48.7%
-Java,Documentation,144/145,UncommentedEmptyMethodBody,1.2%
-Java,Error Prone,140/145,AvoidLiteralsInIfCondition,22.1%
-Java,Error Prone,140/145,AvoidDuplicateLiterals,10.7%
-Java,Error Prone,140/145,DetachedTestCase,9.0%
-Java,Multithreading,134/145,DoNotUseThreads,34.9%
-Java,Multithreading,134/145,UseConcurrentHashMap,32.4%
-Java,Multithreading,134/145,AvoidSynchronizedAtMethodLevel,21.4%
-Java,Performance,141/145,AvoidInstantiatingObjectsInLoops,37.8%
-Java,Performance,141/145,RedundantFieldInitializer,16.7%
-Java,Performance,141/145,ConsecutiveAppendsShouldReuse,8.9%
+Java,Best Practices,144/144,SystemPrintln,15.8%
+Java,Best Practices,144/144,LooseCoupling,8.7%
+Java,Best Practices,144/144,UnusedAssignment,8.7%
+Java,Code Style,144/144,LocalVariableCouldBeFinal,26.5%
+Java,Code Style,144/144,MethodArgumentCouldBeFinal,22.2%
+Java,Code Style,144/144,ShortVariable,11.5%
+Java,Design,144/144,LawOfDemeter,29.3%
+Java,Design,144/144,CyclomaticComplexity,8.6%
+Java,Design,144/144,CognitiveComplexity,6.7%
+Java,Documentation,144/144,CommentSize,49.8%
+Java,Documentation,144/144,CommentRequired,48.7%
+Java,Documentation,144/144,UncommentedEmptyMethodBody,1.2%
+Java,Error Prone,140/144,AvoidLiteralsInIfCondition,22.1%
+Java,Error Prone,140/144,AvoidDuplicateLiterals,10.7%
+Java,Error Prone,140/144,DetachedTestCase,9.0%
+Java,Multithreading,134/144,DoNotUseThreads,34.9%
+Java,Multithreading,134/144,UseConcurrentHashMap,32.4%
+Java,Multithreading,134/144,AvoidSynchronizedAtMethodLevel,21.4%
+Java,Performance,141/144,AvoidInstantiatingObjectsInLoops,37.8%
+Java,Performance,141/144,RedundantFieldInitializer,16.7%
+Java,Performance,141/144,ConsecutiveAppendsShouldReuse,8.9%

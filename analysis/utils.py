@@ -94,7 +94,7 @@ def get_url_format(paper):
     elif url_format == "h":
         return "Hyperlink"
     elif url_format == "s":
-        return "Section"
+        return "In-text"
     else:
         return url_format
 

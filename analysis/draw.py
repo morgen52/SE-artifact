@@ -151,7 +151,7 @@ def figure_distribution_storage_website(filename):
         .unstack(fill_value=0)
     )
     df = df[storage_websites]
-    fig, ax = plt.subplots(figsize=(5, 5))
+    fig, ax = plt.subplots(figsize=(6, 4))
     draw_stacked_bar_chart(df, ax, storage_websites, "percentage")
     lgd = ax.legend(
         ncols=len(storage_websites),
@@ -186,7 +186,7 @@ def figure_artifact_by_programming_language(filename):
     all_percentage = df.copy(True).div(df.sum(axis=1), axis=0).multiply(100)
     df = df[programming_languages]
 
-    fig, ax = plt.subplots(figsize=(5, 5))
+    fig, ax = plt.subplots(figsize=(6, 4))
 
     height_cum = df.cumsum(axis=1)
 
@@ -235,7 +235,7 @@ def figure_invalid_url_ratio_by_year(filename):
     )
     df.rename(columns={True: label_available, False: label_unavailable}, inplace=True)
     df = df[columns]
-    fig, ax = plt.subplots(figsize=(5, 5))
+    fig, ax = plt.subplots(figsize=(6, 4))
     draw_stacked_bar_chart(df, ax, columns, "percentage")
 
     lgd = ax.legend(fontsize=MEDIUM_SIZE, loc="lower right")
@@ -268,7 +268,7 @@ def figure_invalid_url_ratio_by_storage_website(filename):
         count[key]["True"] =  count[key]["True"] / total * 100
         count[key]["False"] =  count[key]["False"] / total * 100
 
-    fig, ax = plt.subplots(figsize=(5, 5))
+    fig, ax = plt.subplots(figsize=(6, 4))
     sort_key = ["github", "artifact_service", "personal_homepage", "temporary_drive_and_others"]
     x_labels = ["Github", "Artifact\nservice", "Personal\nhomepage", "Temporary\nDrive&Others"]
     width = 0.4
@@ -614,7 +614,7 @@ def table_document_situation(filename):
         year = int(paper["paper_id"].split("-")[1])
         doc_num_year[year] += 1
         for category in categories:
-            if paper[category] == "Y":
+            if "Y" in paper[category]:
                 doc_data[year][category] += 1
                 total_counts[category] += 1
     total_doc_num = sum(doc_num_year.values())
@@ -631,6 +631,10 @@ def table_document_situation(filename):
     writer.writerow(last_row)
 
 def write_table_top_code_smell(df, writer, language, categories, categories_labels):
+
+    df = df[df["code_smells"].notnull()]
+    df = df[df["code_smells"] != {}]
+
     for category, label in zip(categories, categories_labels):
         total_smells = 0
         category_count = 0
@@ -681,7 +685,7 @@ def table_top_code_smell(filename):
         python_code_smells_label,
     )
     write_table_top_code_smell(
-        df[df["programming_language"] == "Java"],
+        df[(df["programming_language"] == "Java") & (df["code_smells"].notnull())],
         writer,
         "Java",
         java_code_smells,
@@ -701,7 +705,7 @@ def figure_artifact_ratio_by_conference_and_year(filename):
 
     # print(df)
 
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10, 3))
     bar_width = 0.2  # Width of each bar
 
     conf_loc = [(len(years)*bar_width/2) + i*((len(years)+1)*bar_width) for i in range(len(venues))]
@@ -739,8 +743,6 @@ def figure_artifact_ratio_by_conference_and_year(filename):
     xticks_label = [f"{year}"[2:] for conf in venues for year in years] + [f"\n{conf}" for conf in venues]
     plt.xticks(xticks_loc, xticks_label, fontsize=TICK_SIZE)
     plt.tight_layout()
-    # plt.savefig(filename, bbox_inches="tight")
-    # save to gray style pdf
     plt.savefig(filename, bbox_inches="tight")
 
 def figure_document_situation(filename):
@@ -764,22 +766,46 @@ def figure_document_situation(filename):
         "Contact",
     ]
 
-    total_counts = {category: 0 for category in categories}
-    total_doc_num = len(documentary_fills)
+    doc_aspect = {category: {year: 0 for year in years} for category in categories}
+    doc_num = {year: 0 for year in years}
     for paper in documentary_fills:
+        year = int(paper["paper_id"].split("-")[1])
+        doc_num[year] += 1
         for category in categories:
             if "Y" in paper[category]:
-                total_counts[category] += 1
-    total_counts = {category: total_counts[category] / total_doc_num * 100 for category in categories}
+                doc_aspect[category][year] += 1
+    for category in categories:
+        for year in years:
+            doc_aspect[category][year] = doc_aspect[category][year] / doc_num[year] * 100
 
     # draw the bar
-    plt.figure(figsize=(5, 2))
-    plt.bar(category_labels, total_counts.values(), label="Meet the Standard")
+    plt.figure(figsize=(8, 3))
+
+    bar_width = 0.5  # Width of each bar
+
+    aspect_loc = [(len(years)*bar_width/2) + i*((len(years)+1)*bar_width) for i in range(len(categories))]
+    year_loc = [-(len(years)*bar_width/2) + (i + 0.5) * bar_width for i in range(len(years))]
+
+    real_locs = []
+    aspect_ratio = []
+    for i, category in enumerate(categories):
+        for j, year in enumerate(years):
+            real_loc = aspect_loc[i] + year_loc[j]
+            real_locs.append(real_loc)
+            aspect_ratio.append(doc_aspect[category][year])
+
+    plt.bar(real_locs, aspect_ratio, bar_width, edgecolor="white", label="Meet Criterion")
     plt.legend(fontsize=TICK_SIZE)
 
     # text on the bar
-    for i, (category, count) in enumerate(total_counts.items()):
-        plt.text(i, count+1, f"{count:.1f}%", ha="center", fontsize=MEDIUM_SIZE)
+    for i in range(len(categories)):
+        for j in range(len(years)):
+            plt.text(real_locs[i*len(years)+j], aspect_ratio[i*len(years)+j]+2, f"{aspect_ratio[i*len(years)+j]:.0f}", ha="center", va="center", fontsize=MEDIUM_SIZE)
+
+    xticks_loc = real_locs + aspect_loc
+    xticks_label = [f"{year}"[2:] for cat in categories for year in years] + [f"\n{cat_label}" for cat_label in category_labels]
+    plt.xticks(xticks_loc, xticks_label, fontsize=TICK_SIZE)
+
     plt.xticks(fontsize=TICK_SIZE)
     plt.ylim(0, 100)
     plt.yticks(fontsize=TICK_SIZE)
@@ -884,23 +910,23 @@ def table_fork_distribution(filename):
     writer.writerow(last_row)
 
 figures = [
-    # figure_ratio_with_artifact,
-    # figure_distribution_storage_website,
-    # figure_artifact_by_programming_language,
-    # [figure_url_location, figure_url_format],
-    # figure_invalid_url_ratio_by_year,
-    # figure_invalid_url_ratio_by_storage_website,
-    # [figure_java_code_smell, figure_python_code_smell],
-    # figure_artifact_ratio_by_conference_and_year,
+    figure_ratio_with_artifact,
+    figure_distribution_storage_website,
+    figure_artifact_by_programming_language,
+    [figure_url_location, figure_url_format],
+    figure_invalid_url_ratio_by_year,
+    figure_invalid_url_ratio_by_storage_website,
+    [figure_python_code_smell,figure_java_code_smell],
+    figure_artifact_ratio_by_conference_and_year,
     figure_document_situation,
 ]
 
 tables = [
-    # table_artifact_ratio_by_conference_and_year,
-    # table_maintenance_situation,
+    table_artifact_ratio_by_conference_and_year,
+    table_maintenance_situation,
     table_star_distribution,
-    # table_document_situation,
-    # table_top_code_smell,
+    table_document_situation,
+    table_top_code_smell,
     table_issue_distribution,
     table_fork_distribution,
 ]

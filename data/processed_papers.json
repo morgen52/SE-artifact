@@ -74838,6 +74838,7 @@
     {
         "title": "A Comprehensive Evaluation of Android ICC Resolution Techniques.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-0",
         "venue": "ASE",
         "issue": 2022,
@@ -74878,6 +74879,7 @@
     {
         "title": "A Light Bug Triage Framework for Applying Large Pre-trained Language Model.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-2",
         "venue": "ASE",
         "issue": 2022,
@@ -74897,6 +74899,7 @@
     {
         "title": "A Transferable Time Series Forecasting Service Using Deep Transformer Model for Online Systems.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-3",
         "venue": "ASE",
         "issue": 2022,
@@ -74916,6 +74919,7 @@
     {
         "title": "Accelerating Build Dependency Error Detection via Virtual Build.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-4",
         "venue": "ASE",
         "issue": 2022,
@@ -74935,6 +74939,7 @@
     {
         "title": "Accelerating OCR-Based Widget Localization for Test Automation of GUI Applications.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-5",
         "venue": "ASE",
         "issue": 2022,
@@ -74954,6 +74959,7 @@
     {
         "title": "An Empirical Study of Automation in Software Security Patch Management.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-6",
         "venue": "ASE",
         "issue": 2022,
@@ -75059,6 +75065,7 @@
     {
         "title": "Auto Off-Target: Enabling Thorough and Scalable Testing for Complex Software Systems.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-11",
         "venue": "ASE",
         "issue": 2022,
@@ -75078,6 +75085,7 @@
     {
         "title": "Automated Feedback Generation for Competition-Level Code.",
         "artifact_url": "",
+        "artifact_url_valid": "",
         "paper_id": "ASE-2022-12",
         "venue": "ASE",
         "issue": 2022,
@@ -75317,7 +75325,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 7
+        "citation_count": 7,
+        "artifact_url_valid": ""
     },
     {
         "title": "Checking LTL Satisfiability via End-to-end Learning.",
@@ -76040,7 +76049,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 14
+        "citation_count": 14,
+        "artifact_url_valid": ""
     },
     {
         "title": "Efficient Greybox Fuzzing to Detect Memory Errors.",
@@ -76080,7 +76090,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 1
+        "citation_count": 1,
+        "artifact_url_valid": ""
     },
     {
         "title": "Empirical Study of System Resources Abused by IoT Attackers.",
@@ -76120,7 +76131,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 6
+        "citation_count": 6,
+        "artifact_url_valid": ""
     },
     {
         "title": "Evolving Ranking-Based Failure Proximities for Better Clustering in Fault Isolation.",
@@ -76263,7 +76275,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 1
+        "citation_count": 1,
+        "artifact_url_valid": ""
     },
     {
         "title": "FuzzerAid: Grouping Fuzzed Crashes Based On Fault Signatures.",
@@ -76353,7 +76366,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 3
+        "citation_count": 3,
+        "artifact_url_valid": ""
     },
     {
         "title": "Generating Critical Test Scenarios for Autonomous Driving Systems via Influential Behavior Patterns.",
@@ -76414,7 +76428,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 1
+        "citation_count": 1,
+        "artifact_url_valid": ""
     },
     {
         "title": "Griffin : Grammar-Free DBMS Fuzzing.",
@@ -76546,7 +76561,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 9
+        "citation_count": 9,
+        "artifact_url_valid": ""
     },
     {
         "title": "How Useful is Code Change Information for Fault Localization in Continuous Integration?",
@@ -76892,7 +76908,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 3
+        "citation_count": 3,
+        "artifact_url_valid": ""
     },
     {
         "title": "Learning to Construct Better Mutation Faults.",
@@ -77002,7 +77019,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 1
+        "citation_count": 1,
+        "artifact_url_valid": ""
     },
     {
         "title": "Leveraging Practitioners' Feedback to Improve a Security Linter.",
@@ -77042,7 +77060,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 1
+        "citation_count": 1,
+        "artifact_url_valid": ""
     },
     {
         "title": "Low-Resources Project-Specific Code Summarization.",
@@ -77350,7 +77369,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 12
+        "citation_count": 12,
+        "artifact_url_valid": ""
     },
     {
         "title": "Precise (Un)Affected Version Analysis for Web Vulnerabilities.",
@@ -77486,7 +77506,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 0
+        "citation_count": 0,
+        "artifact_url_valid": ""
     },
     {
         "title": "Prompt-tuned Code Language Model as a Neural Knowledge Base for Type Inference in Statically-Typed Partial Code.",
@@ -78205,7 +78226,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 0
+        "citation_count": 0,
+        "artifact_url_valid": ""
     },
     {
         "title": "So Many Fuzzers, So Little Time*: Experience from Evaluating Fuzzers on the Contiki-NG Network (Hay)Stack.",
@@ -78224,7 +78246,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 2
+        "citation_count": 2,
+        "artifact_url_valid": ""
     },
     {
         "title": "Sorry, I don't Understand: Improving Voice User Interface Testing.",
@@ -78243,7 +78266,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 1
+        "citation_count": 1,
+        "artifact_url_valid": ""
     },
     {
         "title": "StandUp4NPR: Standardizing SetUp for Empirically Comparing Neural Program Repair Systems.",
@@ -78841,7 +78865,8 @@
         "github_open_issues": null,
         "github_update_date": null,
         "programming_language": null,
-        "citation_count": 11
+        "citation_count": 11,
+        "artifact_url_valid": ""
     },
     {
         "title": "Understanding and Predicting Docker Build Duration: An Empirical Study of Containerized Workflow of OSS Projects.",
