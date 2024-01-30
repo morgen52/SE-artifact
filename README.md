@@ -142,7 +142,7 @@ python3 -m analysis.documentary_convert
 We use the following command to generate the images and tables used in our paper.
 
 ```bash
-python3 -m draw.draw
+python3 -m analysis.draw
 ```
 
 This command will save the figures and tables in "images/*".
