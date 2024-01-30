@@ -15,8 +15,8 @@ from pipeline.stages import dblp
 
 if __name__ == "__main__":
     
-    # dblp.add_dblp_info("data/papers.json", "data/processed_papers.json")
+    dblp.add_dblp_info("data/papers.json", "data/processed_papers.json")
 
     github.add_github_info("data/processed_papers.json", "data/processed_papers.json")
-    # storage_website_type.add_storage_website_type("data/processed_papers.json", "data/processed_papers.json")
-    # code_smell.add_code_smell("data/processed_papers.json", "data/processed_papers.json")
+    storage_website_type.add_storage_website_type("data/processed_papers.json", "data/processed_papers.json")
+    code_smell.add_code_smell("data/processed_papers.json", "data/processed_papers.json")
