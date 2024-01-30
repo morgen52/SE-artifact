@@ -23,7 +23,6 @@ from utils.file import *
 from utils.github import *
 from config import GITHUB_TOKEN
 
-os.environ["https_proxy"] = "http://localhost:7890"
 auth = Auth.Token(GITHUB_TOKEN)
 GITHUB = Github(auth=auth)
 

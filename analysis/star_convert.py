@@ -10,7 +10,7 @@ def top_starred_transfer(): # transfer data from data/top_starred_fill.xlsx to c
     
     with open("data/top_starred_fills.csv", "w") as f:
         for row in result:
-            f.write("\t".join([str(x) for x in row]) + "\n")
+            f.write(",".join([str(x) for x in row]) + "\n")
 
 if __name__ == "__main__":
     top_starred_transfer()

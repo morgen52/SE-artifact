@@ -40,9 +40,9 @@ with open("data/papers.json", "w") as f:
 
 # save to "data/papers.csv"
 with open("data/papers.csv", "w") as f:
-    f.write("\t".join(data[0].keys()) + "\n")
+    f.write(",".join(data[0].keys()) + "\n")
     for d in data:
-        f.write("\t".join(d.values()) + "\n")
+        f.write(",".join(d.values()) + "\n")
 
 
 

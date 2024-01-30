@@ -29,6 +29,8 @@ This repository contains the scripts, data, and results for our paper *Research 
 
 ```bash
 cd SE-artifact
+conda create -n se-artifact python=3.10
+conda activate se-artifact
 pip install -r requirements.txt
 ```
 
@@ -140,7 +142,7 @@ python3 -m analysis.documentary_convert
 We use the following command to generate the images and tables used in our paper.
 
 ```bash
-python3 -m draw.draw
+python3 -m analysis.draw
 ```
 
 This command will save the figures and tables in "images/*".

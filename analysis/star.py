@@ -24,9 +24,9 @@ def sort_github_stars():
         result[rank] = [rank+1, paper_id, info[0], info[1]] # star, repo_name
         
     with open("data/github_star_ranking.csv", "w") as f:
-        f.write("rank\tpaper_id\tstar\trepo_name\n") # headline
+        f.write("rank,paper_id,star,repo_name\n") # headline
         for rank, paper_id, star, repo_name in result:
-            f.write(f"{rank}\t{paper_id}\t{star}\t{repo_name}\n")
+            f.write(f"{rank},{paper_id},{star},{repo_name}\n")
 
     # write top-starred artifacts (star number > 100) to data/top_starred.xlsx for manual checking
     wb = openpyxl.Workbook()
