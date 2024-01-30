@@ -14,7 +14,6 @@ from utils.file import *
 import requests
 from collections import defaultdict
 
-os.environ["https_proxy"] = "http://localhost:7890"
 OVERRIDE = False
 unknown_cnt = 0
 

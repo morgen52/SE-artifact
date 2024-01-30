@@ -16,8 +16,6 @@ from utils.github import *
 from collections import defaultdict
 from config import PMD_PATH
 
-os.environ["https_proxy"] = "http://localhost:7890"
-
 ANALYZE_PYTHON = True
 ANALYZE_JAVA = True
 OVERRIDE = False
