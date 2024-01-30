@@ -108,6 +108,7 @@ def figure_ratio_with_artifact(filename):
         papers_df.groupby("year")["Artifact Present"]
         .value_counts()
         .unstack(fill_value=0)
+        .reindex(columns=[False, True], fill_value=0)
     )
     df = df.div(df.sum(axis=1), axis=0).multiply(100)
     df.rename(columns={False: "With Artifact", True: "Without Artifact"}, inplace=True)
@@ -149,6 +150,7 @@ def figure_distribution_storage_website(filename):
         .groupby("year")["Storage Website"]
         .value_counts()
         .unstack(fill_value=0)
+        .reindex(columns=storage_websites, fill_value=0)
     )
     df = df[storage_websites]
     fig, ax = plt.subplots(figsize=(6, 4))
@@ -181,6 +183,7 @@ def figure_artifact_by_programming_language(filename):
         .groupby("year")["Programming Language"]
         .value_counts()
         .unstack(fill_value=0)
+        .reindex(columns=programming_languages, fill_value=0)
     )
 
     all_percentage = df.copy(True).div(df.sum(axis=1), axis=0).multiply(100)
@@ -251,7 +254,8 @@ def figure_invalid_url_ratio_by_storage_website(filename):
     Figure 7: The proportions of unavailable artifacts in different
     types of storage websites
     """
-    count = {}
+    storage_website_types = ["github", "artifact_service", "personal_homepage", "temporary_drive_and_others"]
+    count = { ty: {"True": 0, "False": 0} for ty in storage_website_types }
     for paper in papers:
         valid = paper.get("artifact_url_valid", None)
         if not valid:
@@ -265,16 +269,18 @@ def figure_invalid_url_ratio_by_storage_website(filename):
     # to percentage
     for key in count:
         total = count[key]["True"] + count[key]["False"]
+        if total == 0:
+            count[key]["True"], count[key]["False"] = 0, 0
+            continue
         count[key]["True"] =  count[key]["True"] / total * 100
         count[key]["False"] =  count[key]["False"] / total * 100
 
     fig, ax = plt.subplots(figsize=(6, 4))
-    sort_key = ["github", "artifact_service", "personal_homepage", "temporary_drive_and_others"]
     x_labels = ["Github", "Artifact\nservice", "Personal\nhomepage", "Temporary\nDrive&Others"]
     width = 0.4
-    x = [width + 1.2 * i * width for i in range(len(sort_key))]
-    valid_url = [count[key]["True"] for key in sort_key]
-    invalid_url = [count[key]["False"] for key in sort_key]
+    x = [width + 1.2 * i * width for i in range(len(storage_website_types))]
+    valid_url = [count[key]["True"] for key in storage_website_types]
+    invalid_url = [count[key]["False"] for key in storage_website_types]
     ax.bar(x, valid_url, width, label="Available artifacts")
     ax.bar(x, invalid_url, width, bottom=valid_url, label="Unavailable artifacts")
     # set text
@@ -321,6 +327,9 @@ def draw_code_smell_pie_graph(ax, df, categories, categories_label, startangle):
 
     counts = [counts[category] for category in categories]
     total = sum(counts)
+    if total == 0:
+        print("No code smell")
+        return False
     counts = [(count / total) * 100 for count in counts]
     
     wedges = draw_pie_graph(ax, counts, startangle)
@@ -366,15 +375,15 @@ def figure_url_location(filename):
     Figure 5: Distribution of artifact locations of URLs
     provided in a paper
     """
+    target_order = ["Abstract", "Introduction", "Title", "Others", "Conclusion"]
     df = pd.DataFrame(papers)
     df = df.apply(
         lambda x: utils.get_url_location(x), axis=1
     )
-    df = df.explode("url_location").value_counts()
+    df = df.explode("url_location").value_counts().reindex(target_order, fill_value=0)
     counts = df.values / df.values.sum() * 100
 
     print(counts)
-    target_order = ["Abstract", "Introduction", "Title", "Others", "Conclusion"]
     target_index = [df.index.tolist().index(target) for target in target_order]
     counts = counts[target_index]
     print(counts)
@@ -425,6 +434,7 @@ def table_artifact_ratio_by_conference_and_year(filename):
     the number of papers with artifacts, and the second number represents the
     total number of papers.
     """
+    index = [(year, conf) for conf in venues for year in years]
     papers_df = pd.DataFrame(papers)
     papers_df["Artifact Present"] = papers_df.apply(
         lambda x: utils.has_artifact(x), axis=1
@@ -433,6 +443,7 @@ def table_artifact_ratio_by_conference_and_year(filename):
         papers_df.groupby(["year", "venue"])["Artifact Present"]
         .value_counts()
         .unstack(fill_value=0)
+        .reindex(index, fill_value=0)
     )
     
     writer = csv.writer(open(filename, "w"))
@@ -522,11 +533,17 @@ def table_maintenance_situation(filename):
         for year in years:
             row = [venue, year]
             for date in dates:
-                row.append("%.1lf%%" % (results[venue][year][date] / count[venue][year] * 100))
+                if count[venue][year] == 0:
+                    row.append("N/A")
+                else:
+                    row.append("%.1lf%%" % (results[venue][year][date] / count[venue][year] * 100))
             writer.writerow(row)
         row = [venue, "Average"]
         for date in dates:
-            row.append("%.1lf%%" % (sum(results[venue][y][date] for y in years) / sum(count[venue][y] for y in years) * 100))
+            if sum(count[venue][y] for y in years) == 0:
+                row.append("N/A")
+            else:
+                row.append("%.1lf%%" % (sum(results[venue][y][date] for y in years) / sum(count[venue][y] for y in years) * 100))
         writer.writerow(row)
 
 def table_star_distribution(filename):
@@ -553,10 +570,11 @@ def table_star_distribution(filename):
                 return i
         return -1
 
+    index = [(year, i) for i in range(len(star_ranges)) for year in years]
     df = pd.DataFrame(papers)
     df = df[df["github_star"].notnull()]
     df["star_index"] = df.apply(lambda x: get_star_index(x["github_star"]), axis=1)
-    df = df.groupby("year")["star_index"].value_counts().unstack(fill_value=0)
+    df = df.groupby("year")["star_index"].value_counts().reindex(index, fill_value=0).unstack(fill_value=0)
     total = df.sum().sum()
 
     last_row = ["average"]
@@ -704,10 +722,12 @@ def figure_artifact_ratio_by_conference_and_year(filename):
     papers_df["Artifact Present"] = papers_df.apply(
         lambda x: utils.has_artifact(x), axis=1
     )
+    index = [(conf, year) for conf in venues for year in years]
     df = (
         papers_df.groupby(["venue", "year"])["Artifact Present"]
         .value_counts()
         .unstack(fill_value=0)
+        .reindex(index, fill_value=0)
     )
 
     # print(df)
@@ -723,7 +743,7 @@ def figure_artifact_ratio_by_conference_and_year(filename):
     real_locs = []
     with_artifacts = []
     without_artifacts = []
-    for i, (conf, year) in enumerate(df.index):
+    for i, (conf, year) in enumerate(index):
         real_loc = conf_loc[venues.index(conf)] + year_loc[years.index(year)]
         real_locs.append(real_loc)
         with_artifacts.append(df.loc[conf, year][True])
@@ -845,12 +865,13 @@ def table_issue_distribution(filename):
                 return i
         return -1
 
+    index = [(year, i) for i in range(len(issue_ranges)) for year in years]
     df = pd.DataFrame(papers)
     df["github_issues"] = df.apply(lambda x: x["github_issues"]+x["github_open_issues"] if x["github_issues"] else 0, axis=1)
     df = df[df["github_issues"].notnull()]
     df["issue_index"] = df.apply(lambda x: get_issue_index(x["github_issues"]), axis=1)
 
-    df = df.groupby("year")["issue_index"].value_counts().unstack(fill_value=0)
+    df = df.groupby("year")["issue_index"].value_counts().reindex(index, fill_value=0).unstack(fill_value=0)
     total = df.sum().sum()
 
     last_row = ["average"]
@@ -891,10 +912,11 @@ def table_fork_distribution(filename):
                 return i
         return -1
 
+    index = [(year, i) for i in range(len(fork_ranges)) for year in years]
     df = pd.DataFrame(papers)
     df = df[df["github_fork"].notnull()]
     df["fork_index"] = df.apply(lambda x: get_fork_index(x["github_fork"]), axis=1)
-    df = df.groupby("year")["fork_index"].value_counts().unstack(fill_value=0)
+    df = df.groupby("year")["fork_index"].value_counts().reindex(index, fill_value=0).unstack(fill_value=0)
     total = df.sum().sum()
 
     last_row = ["average"]
