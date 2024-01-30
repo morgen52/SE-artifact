@@ -1,902 +1,902 @@
-rank	paper_id	star	repo_name
-1	FSE-2020-108	5760	microsoft/MMdnn
-2	FSE-2019-67	3448	uber/NullAway
-3	ICSE-2021-26	2047	github/CodeSearchNet
-4	ICSE-2022-43	1756	microsoft/CodeBERT
-5	FSE-2022-87	1756	microsoft/CodeBERT
-6	ICSE-2018-79	539	ravichugh/sketch-n-sketch
-7	ICSE-2020-43	492	smartbugs/smartbugs
-8	ICSE-2018-56	319	tsantalis/RefactoringMiner
-9	ICSE-2019-103	290	acid-state/acid-state
-10	ICSE-2018-117	274	guxd/deep-code-search
-11	ICSE-2021-132	269	vitsalis/pycg
-12	ASE-2018-45	239	carolemieux/afl-rb
-13	FSE-2019-48	237	mc-imperial/jfs
-14	ICSE-2022-193	221	CGCL-codes/naturalcc
-15	FSE-2022-103	221	CGCL-codes/naturalcc
-16	ASE-2018-26	218	gongbell/ContractFuzzer
-17	ICSE-2018-120	209	CozySynthesizer/cozy
-18	ICSE-2019-67	204	zhangj1994/astnn
-19	ISSTA-2018-27	198	xgdsmileboy/SimFix
-20	ISSTA-2018-9	181	ChrisCummins/phd
-21	FSE-2018-7	167	logpai/Log3C
-22	ASE-2018-23	148	2bdenny/ReScue
-23	ICSE-2019-63	146	SoftSec-KAIST/Eclipser
-24	FSE-2017-24	134	tingsu/Stoat
-25	ISSTA-2018-23	128	carolemieux/perffuzz
-26	ICSE-2018-113	125	FeatureIDE/FeatureIDE
-27	ICSE-2019-8	119	ropas/sparrow
-28	ASE-2021-20	118	SoftSec-KAIST/Smartian
-29	ICSE-2022-112	114	LogIntelligence/LogADEmpirical
-30	ASE-2018-13	111	TrustAI/DeepConcolic
-31	ICSE-2019-62	109	zhunki/Superion
-32	ISSTA-2022-0	107	vul337/jTrans
-33	ICSE-2020-39	103	DroidTest/TimeMachine
-34	ICSE-2021-12	98	facebookresearch/code-prediction-transformer
-35	FSE-2017-46	98	LASER-UMASS/Themis
-36	ASE-2020-77	95	BorgwardtLab/GraphKernels
-37	ISSTA-2020-0	91	andreafioraldi/weizz-fuzzer
-38	FSE-2020-98	90	chenjshnn/Object-Detection-for-Graphical-User-Interface
-39	FSE-2017-10	89	mmjb/T2
-40	FSE-2020-58	85	Practical-Formal-Methods/storm
-41	ICSE-2021-95	84	bdqnghi/infercode
-42	ASE-2021-41	78	vanhoanglepsa/NeuralLog
-43	ASE-2017-38	76	SoftSec-KAIST/MeanDiff
-44	FSE-2021-21	76	jeresig/dromaeo
-45	ICSE-2021-60	73	GUIDesignResearch/GUIGAN
-46	ICSE-2021-109	69	google/tsec
-47	ISSTA-2020-33	67	DependableSystemsLab/SolidiFI
-48	ASE-2017-36	66	kdudka/predator
-49	ISSTA-2021-49	66	ibm/jsonsubschema
-50	ICSE-2017-29	65	IIE-LibD/libd
-51	FSE-2017-69	65	SLP-Team/SLP-Core
-52	ICSE-2022-83	63	ise-uiuc/FreeFuzz
-53	ISSTA-2019-4	61	prapr/prapr
-54	FSE-2021-62	60	bayesgroup/code_transformers
-55	ICSE-2021-116	59	YangLin-George/PLELog
-56	ASE-2018-35	58	data61/PSL
-57	FSE-2018-14	58	parasol-aser/deepsim
-58	FSE-2021-29	57	vulnerabilitydetection/VulnerabilityDetectionResearch
-59	ISSTA-2020-32	56	valour01/arm_disasssembler_study
-60	FSE-2021-61	56	CUMLSec/stateformer
-61	ICSE-2020-83	54	SoftSec-KAIST/Ankou
-62	ICSE-2019-23	53	tianxiaogu/ape
-63	ISSTA-2021-20	53	HexHive/Gramatron
-64	ICSE-2017-34	52	llmhyy/microbat
-65	ISSTA-2020-8	50	lin-tan/CoCoNut-Artifact
-66	FSE-2018-15	49	DeepTyper/DeepTyper
-67	FSE-2020-65	49	Jacob-yen/LEMON
-68	FSE-2022-51	49	rindPHI/isla
-69	ASE-2019-74	47	logpai/logzip
-70	ASE-2021-49	47	JetBrains-Research/PyNose
-71	ISSTA-2022-32	47	vul337/PrIntFuzz
-72	FSE-2021-33	47	pkuzqh/Recoder
-73	ICSE-2022-192	46	CGCL-codes/VulCNN
-74	ASE-2017-65	46	bugs-dot-jar/bugs-dot-jar
-75	ASE-2019-89	46	1dayto0day/B2SFinder
-76	FSE-2022-79	46	awsm-research/VulRepair
-77	ICSE-2020-42	45	CC2Vec/CC2Vec
-78	ICSE-2020-87	44	giganticode/codeprep
-79	ICSE-2018-34	43	deeplearningTest/deepTest
-80	ICSE-2020-114	43	sameerreddy13/rlcheck
-81	ICSE-2019-89	42	coinse/sadl
-82	ISSTA-2018-22	42	albertogoffi/toradocu
-83	ICSE-2021-93	41	lin-tan/CURE
-84	ASE-2018-48	41	llmhyy/tregression
-85	FSE-2022-35	41	adf1178/PT4Code
-86	FSE-2022-65	41	sola-st/DynaPyt
-87	ICSE-2018-92	40	sola-da/ConflictJS
-88	ICSE-2022-111	40	ltlfuzzer/LTL-Fuzzer
-89	ISSTA-2019-17	40	DeepFL/DeepFaultLocalization
-90	ICSE-2022-3	40	MCUSec/microAFL
-91	ICSE-2022-4	38	NougatCA/SPT-Code
-92	ASE-2021-48	38	Artisan-Lab/RULF
-93	ICSE-2020-112	38	zhangj111/rencos
-94	ICSE-2022-165	37	acieroid/wassail
-95	ICSE-2022-189	37	squaresLab/VarCLR
-96	ASE-2018-63	37	FudanSELab/CLDIFF
-97	FSE-2020-15	37	stg-tud/opal
-98	FSE-2021-57	36	Practical-Formal-Methods/queryFuzz
-99	FSE-2022-6	36	saikat107/NatGen
-100	ICSE-2018-49	35	gmu-swe/deflaker
-101	ICSE-2019-15	35	isstac/diffuzz
-102	ICSE-2021-69	35	wooseunghoon/Centris-public
-103	ISSTA-2021-45	35	renardbebe/Smart-Contract-Benchmark-Suites
-104	FSE-2020-18	35	seclab-ucr/UBITect
-105	ICSE-2021-121	34	ataraxie/codeshovel
-106	ISSTA-2021-17	34	setting-defect-fuzzing/home
-107	ASE-2022-36	34	bajinsheng/ReZZan
-108	ICSE-2018-67	33	RafaelTupynamba/quicksampler
-109	ICSE-2022-104	33	chicharitomu14/AndScanner
-110	FSE-2018-29	33	DeccaDC/Decca
-111	FSE-2020-61	33	rahlk/MTFuzz
-112	FSE-2021-77	33	paulgazz/kmax
-113	ICSE-2019-68	32	mcmillco/funcom
-114	ICSE-2019-69	32	lfd/PaStA
-115	ICSE-2022-122	32	soarsmu/attack-pretrain-models-of-code
-116	ASE-2020-54	32	kaist-plrg/jiset
-117	ISSTA-2021-51	32	PanYicheng/dycause_rca
-118	ISSTA-2022-25	32	SongXueZhi/RegMiner
-119	ICSE-2018-152	32	kupl/ParaDySE
-120	ICSE-2018-6	31	ReMine-Lab/IDEA
-121	ICSE-2018-75	31	parasol-aser/UFO
-122	ICSE-2018-119	31	facoy/facoy
-123	ICSE-2021-13	31	RosaliaTufano/code_review
-124	ICSE-2022-138	31	githubnext/amalfi-artifact
-125	ASE-2019-9	31	secure-software-engineering/COVA
-126	ISSTA-2019-5	31	SerVal-DTF/TBar
-127	ISSTA-2020-2	31	uds-se/lFuzzer
-128	ICSE-2017-35	30	gustavoasoares/refazer
-129	ASE-2022-43	30	SoftSec-KAIST/Fuzzle
-130	ICSE-2022-81	29	DJjjjhao/FIRA-ICSE
-131	ICSE-2022-173	29	microsoft/toga
-132	ISSTA-2018-12	29	ForeverZyh/TensorFlow-Program-Bugs
-133	ISSTA-2020-41	29	shiyy123/FCDetector
-134	ISSTA-2021-34	29	ZZR0/ISSTA21-JIT-DP
-135	ISSTA-2018-6	28	exatoa/Bench4BL
-136	ISSTA-2022-14	28	lin-tan/DocTer
-137	FSE-2019-76	28	SEntiMoji/SEntiMoji
-138	ICSE-2020-49	27	ICSE-2019-AUTOFIX/ICSE-2019-AUTOFIX
-139	ICSE-2022-117	27	library-testing/Muffin
-140	ICSE-2020-64	26	Practical-Formal-Methods/bran
-141	ICSE-2022-131	26	DeepSoftwareAnalytics/CodeSumEvaluation
-142	ASE-2021-38	26	neil-kulkarni/arvada
-143	FSE-2022-95	26	ChijinZ/Minerva
-144	ICSE-2019-28	25	dockerizeme/dockerizeme
-145	ICSE-2021-27	25	antonio-mastropaolo/T5-learning-ICSE_2021
-146	ICSE-2021-58	25	vasumv/bonsai-fuzzing
-147	ICSE-2022-92	25	CelloCorgi/HashingItOut_ICSE2022
-148	ISSTA-2019-7	25	ucam-cl-dtg/LibID
-149	ICSE-2020-57	24	DeepImportance/deepimportance_code_release
-150	ASE-2019-39	24	vlab-cs-ucsb/ABC
-151	ASE-2021-34	24	awsm-research/PyExplainer
-152	ISSTA-2022-35	24	BBge/FirmSecDataset
-153	FSE-2018-36	24	vlab-cs-ucsb/ABC
-154	ASE-2022-21	24	EngineeringSoftware/CoditT5
-155	ICSE-2018-121	23	viatra/VIATRA-Generator
-156	ICSE-2019-26	23	sola-da/NL2Type
-157	ICSE-2019-107	23	dgl-prc/m_testing_adversatial_sample
-158	ICSE-2021-135	23	VPDroid/Dev
-159	ICSE-2022-9	23	OpsPAI/ADSketch
-160	ICSE-2022-145	23	Tritlo/PropR
-161	ASE-2019-33	23	githubhuyang/refactory
-162	ISSTA-2020-12	22	anlalalu/Q-testing
-163	FSE-2017-67	22	jyi/ITSP
-164	FSE-2018-16	22	jjhenkel/code-vectors-artifact
-165	FSE-2021-78	22	sola-st/SemSeed
-166	FSE-2021-83	22	ShenQingchao/DLCstudy
-167	FSE-2022-31	22	MulongXie/GUI-Perceptual-Grouping
-168	ASE-2022-22	22	EngineeringSoftware/jattack
-169	ASE-2022-63	22	tianzhaotju/LEAM
-170	ASE-2022-105	22	lkpsg/ccscanner
-171	ICSE-2017-26	21	srasthofer/FuzzDroid
-172	ICSE-2022-97	21	mxx1219/TRANSFER
-173	ISSTA-2017-8	21	pietrobraione/sushi
-174	ISSTA-2020-6	21	yilinglou/proFL
-175	ISSTA-2021-50	21	rshariffdeen/FixMorph
-176	FSE-2021-117	21	FISCO-BCOS/SCStudio
-177	FSE-2021-80	21	JetBrains-Research/authorship-detection
-178	ICSE-2017-36	20	Adobee/ACS
-179	ICSE-2021-92	20	STAR-RG/shipwright
-180	ICSE-2022-16	20	zetang94/ICSE2022_AST_Trans
-181	ICSE-2022-45	20	AutomatedProgramRepair-2021/dear-auto-fix
-182	ICSE-2022-102	20	JordanSamhi/JuCify
-183	ASE-2017-13	20	senticr/SentiCR
-184	ASE-2017-61	20	season-lab/memsight
-185	ASE-2019-22	20	xgdsmileboy/GenPat
-186	ISSTA-2018-29	20	isstac/badger
-187	ISSTA-2021-14	20	TOLLER-Android/main
-188	FSE-2020-14	20	vrthra/mimid
-189	ICSE-2020-29	19	testingautomated-usi/selforacle
-190	ICSE-2021-44	19	lukasmoldon/GHStreaksThesis
-191	ICSE-2021-45	19	sola-st/IdBench
-192	ISSTA-2020-13	19	kupl/ADAPT
-193	ISSTA-2020-31	19	plast-lab/native-scanner
-194	FSE-2018-20	19	MrVPlusOne/Singularity
-195	FSE-2021-27	19	Song-Li/ObjLupAnsys
-196	ICSE-2020-125	19	twelveand0/CarrotsBlender
-197	ASE-2022-23	19	soarsmu/Compressor
-198	ICSE-2021-130	18	SMAT-Lab/SnifferDog
-199	ICSE-2022-124	18	SophieHYe/RewardRepair
-200	ICSE-2022-186	18	RosaliaTufano/code_review_automation
-201	FSE-2017-91	18	Microsoft/rudder
-202	ASE-2019-15	18	Tbabm/PRSummarizer
-203	ISSTA-2018-25	18	karkhaz/tuscan
-204	ISSTA-2019-18	18	secure-software-engineering/swan
-205	ISSTA-2022-12	18	yonsei-cysec/XBA
-206	ISSTA-2022-23	18	codingsoo/REST_GO
-207	ISSTA-2022-29	18	diewufeihong/SLIME
-208	FSE-2019-72	18	bdqnghi/SAR_API_mapping
-209	FSE-2020-30	18	xlab-uiuc/cdep-fse
-210	FSE-2022-13	18	BuiltOntheRock/FSE22_BuiltOntheRock
-211	ICSE-2019-0	17	TruX-DTF/debug-method-name
-212	ICSE-2022-54	17	FudanSELab/DeepTraLog
-213	ICSE-2022-120	17	MVDetection/MVD
-214	ASE-2017-60	17	srg-imperial/klee-float
-215	ASE-2019-88	17	Kawser-nerd/CLCDSA
-216	ISSTA-2022-3	17	ZZR0/ISSTA22-CodeStudy
-217	FSE-2021-63	17	facebookresearch/mmd
-218	FSE-2022-90	17	zhangzwwww/DietCode
-219	ASE-2022-27	17	sola-st/crystalbleu
-220	ASE-2022-71	17	se2p/whisker
-221	ICSE-2018-97	16	Ultimanecat/DefectRepairing
-222	ICSE-2019-11	16	AndroidTestBugReport/ReCDroid
-223	ICSE-2019-27	16	tianyi-zhang/ExampleStack-ICSE-Artifact
-224	ASE-2017-5	16	wsong-nj/EHBDroid
-225	ASE-2018-19	16	logpai/LoggingDescriptions
-226	ASE-2021-59	16	lhmtriet/DeepCVA
-227	ISSTA-2021-24	16	drzchen/movec
-228	FSE-2019-50	16	TestingResearchIllinois/iFixFlakies
-229	FSE-2021-102	16	andromeda/lya
-230	ICSE-2017-23	15	michaelpradel/ConTeGe
-231	ICSE-2019-83	15	sealuzh/PerformanceHat
-232	ICSE-2020-44	15	sjmini/icse2020-Solidity
-233	ICSE-2021-15	15	xlab-uiuc/open-cevo
-234	ICSE-2021-102	15	kbcao/sequer
-235	ICSE-2022-39	15	neu-se/CONFETTI
-236	ICSE-2022-72	15	rschumi0/ExAIS
-237	ICSE-2022-88	15	NAIST-SE/GHSponsors
-238	ASE-2021-54	15	OpsPAI/aid
-239	ISSTA-2020-34	15	phaller/reactive-async
-240	ISSTA-2021-12	15	ylimit/ModelDiff
-241	ISSTA-2021-36	15	xlab-uiuc/ctest_prio_art
-242	FSE-2018-25	15	columbia/appflow
-243	FSE-2019-30	15	SerVal-DTF/iFixR
-244	ICSE-2018-18	14	squaresLab/footpatch
-245	ICSE-2021-24	14	SmallkeyChen/RobOT
-246	ICSE-2021-108	14	salmanee/Librarian
-247	ICSE-2022-36	14	saltudelft/codefill
-248	ICSE-2022-103	14	PyEGo/PyEGo
-249	ICSE-2022-132	14	v587su/NLQF
-250	ASE-2018-57	14	squaresLab/SemanticCrashBucketing
-251	ASE-2020-49	14	tbabm/CUP
-252	ASE-2021-65	14	cyruscyliu/firmguide
-253	ISSTA-2020-14	14	deepgini/deepgini
-254	ISSTA-2020-23	14	COLA-Laboratory/issta2020
-255	ISSTA-2021-21	14	yannicnoller/qfuzz
-256	FSE-2022-40	14	sslab-gatech/robofuzz
-257	ASE-2022-41	14	testsmt/janus
-258	ASE-2022-96	14	kwz219/NPR4J
-259	ICSE-2019-39	13	deekshaarya4/Info_Types_in_OSS_Issue_Discussions
-260	ICSE-2019-99	13	archer29m/AndroidSlicer
-261	ICSE-2021-123	13	theosotr/cynthia
-262	ICSE-2022-8	13	ICSE2022FL/ICSE2022FLCode
-263	ICSE-2022-41	13	BlackJocker1995/uavga
-264	ASE-2020-81	13	SerVal-DTF/DL4PatchCorrectness
-265	ISSTA-2019-34	13	ashgeek/Ethracer
-266	ISSTA-2020-17	13	uiuc-arc/flash
-267	ISSTA-2022-2	13	ljiahao/TeLL
-268	ISSTA-2022-55	13	yuntongzhang/vulnfix
-269	FSE-2019-15	13	matteobiagiola/FSE19-submission-material-DIG
-270	FSE-2020-10	13	vaibhavbsharma/java-ranger
-271	ICSE-2020-117	13	kelloggm/object-construction-checker
-272	ASE-2022-52	13	sharedata21/HTFuzz
-273	ASE-2022-91	13	SophieHYe/SelfAPR
-274	ICSE-2018-0	12	justinwm/CapGen
-275	ICSE-2018-26	12	icse18-fast/FAST
-276	ICSE-2018-122	12	verivital/slsf_randgen
-277	ICSE-2020-50	12	SerVal-DTF/APR-Efficiency
-278	ICSE-2020-77	12	pxzhang94/ADF
-279	ICSE-2021-64	12	s3team/Abacus
-280	FSE-2017-77	12	marko-vasic/ekstaziSharp
-281	ICSE-2022-24	12	hub-se/BeDivFuzz
-282	ICSE-2022-38	12	GIST-NJU/RestCT
-283	ICSE-2022-49	12	DeepDiagnosis/ICSE2022
-284	ICSE-2022-50	12	ArabelaTso/DeepFD
-285	ASE-2021-74	12	Feri73/deep-gui
-286	ISSTA-2021-35	12	ucd-plse/PyDFix
-287	FSE-2018-30	12	FoelliX/ReproDroid
-288	FSE-2019-9	12	jku-ssw/gcc-builtin-study
-289	FSE-2019-25	12	SoftLegend/AC3R-Demo
-290	FSE-2020-72	12	testingautomated-usi/DeepJanus
-291	FSE-2021-56	12	Jacob-yen/GRIST
-292	FSE-2021-84	12	sumonbis/FairPreprocessing
-293	FSE-2022-19	12	jodavimehran/code-tracker
-294	ASE-2022-29	12	malusamayo/leakage-analysis
-295	ASE-2022-53	12	quentinLeDilavrec/HyperAST
-296	ASE-2022-56	12	EngineeringSoftware/inlinetest
-297	ICSE-2017-63	11	Bocete/adsl
-298	ICSE-2019-106	11	nandor/mkcheck
-299	ICSE-2021-131	11	PYART0/PyART
-300	ICSE-2022-35	11	wssun/TranCS
-301	ICSE-2022-98	11	zysszy/CAT
-302	ICSE-2022-126	11	kupl/npex
-303	ICSE-2022-128	11	Xuhpclab/jxperf
-304	ICSE-2022-156	11	RoPGen/RoPGen
-305	ASE-2018-31	11	sola-da/StaticBugCheckers
-306	ISSTA-2018-20	11	blaeser/parallelchecker
-307	ISSTA-2019-19	11	mkechagia/Catcher
-308	ISSTA-2022-39	11	AIasd/FusED
-309	ISSTA-2022-44	11	dafny-lang/xdsmith
-310	FSE-2017-4	11	rutgers-apl/TaskProf
-311	FSE-2020-21	11	Alan-Cha/graphql-complexity-paper-artifact
-312	FSE-2021-113	11	MHunt-er/Benchmarking-Malware-Family-Classification
-313	FSE-2021-40	11	joymallyac/Fair-SMOTE
-314	FSE-2021-59	11	yilinglou/Grace
-315	FSE-2021-72	11	kusumotolab/NIL
-316	ICSE-2018-13	10	shuiblue/INFOX
-317	ICSE-2018-128	10	ai-se/Smote_tune
-318	ICSE-2019-25	10	AishwaryaSivaraman/ALICE-ILP-for-Code-Search
-319	ICSE-2019-94	10	DeepPerf/DeepPerf
-320	ICSE-2020-0	10	icse20/RT-CI
-321	ICSE-2020-17	10	DynamicCodeSearch/SLACC
-322	ICSE-2020-91	10	ARiSE-Lab/DeepInspect
-323	ICSE-2021-30	10	self-checker/SelfChecker
-324	ICSE-2022-27	10	wangdeze18/DACL
-325	ICSE-2022-34	10	Moshiii/CLEAR-replication
-326	ICSE-2022-40	10	nju-websoft/PyCRE
-327	ICSE-2022-191	10	baolingfeng/V-SZZ
-328	ASE-2018-10	10	metaborg/spoofax-pie
-329	ASE-2018-12	10	sakshiudeshi/Aequitas
-330	ASE-2019-14	10	ReMine-Lab/RRGen
-331	ASE-2020-34	10	20200501/OwlEye
-332	ISSTA-2017-26	10	wangbo15/accmut
-333	ISSTA-2019-29	10	thomasdeanwhite/GUIdance
-334	ISSTA-2022-58	10	DependableSystemsLab/eTainter
-335	FSE-2017-41	10	too4words/Call-Graph-Builder-DotNet
-336	FSE-2018-13	10	silverbullettt/scaler
-337	FSE-2020-66	10	Practical-Formal-Methods/DeepSearch
-338	FSE-2021-23	10	beyondacm/TDClearner
-339	FSE-2021-50	10	Troublor/darcher
-340	FSE-2022-27	10	HaoxianChen/declarative-smart-contracts
-341	ASE-2022-59	10	SpringJasmine/Jasmine
-342	ASE-2022-70	10	ShenQingchao/QAQA
-343	ASE-2022-106	10	DehengYang/TransplantFix
-344	ICSE-2017-41	9	rohanpadhye/travioli
-345	ICSE-2019-16	9	LASER-UMASS/Swami
-346	ICSE-2019-85	9	hyperloop-rails/panorama-static-analyzer
-347	ICSE-2020-19	9	parasol-aser/XRust
-348	ICSE-2021-23	9	gbftdlie/Graph-based-fuzz-testing
-349	ICSE-2022-67	9	lin-tan/eagle
-350	ICSE-2022-77	9	Antimony5292/FairNeuron
-351	ASE-2017-24	9	sch8906/intAbs
-352	ASE-2017-48	9	atlanmod/Mogwai
-353	ASE-2019-0	9	code2vec-critique/generalizability
-354	ASE-2019-26	9	JunjieChen/HiCOND
-355	ASE-2021-57	9	wjy99-c/QDiff
-356	ISSTA-2017-3	9	wyaneva/ParTeCL-CodeGen
-357	ISSTA-2019-23	9	Practical-Formal-Methods/adiff
-358	ISSTA-2020-38	9	monkbai/DecFuzzer
-359	ISSTA-2021-9	9	LingfengZhang98/EIDIG
-360	ISSTA-2022-54	9	2022CIRCLE/CIRCLE
-361	FSE-2018-45	9	saltlab/vista
-362	FSE-2018-51	9	uiuc-arc/probfuzz
-363	FSE-2019-31	9	justinwm/InduceBenchmark
-364	FSE-2019-46	9	Lizenan1995/DNNOpAcc
-365	FSE-2021-43	9	fio1982/GRec
-366	FSE-2021-48	9	FSEwork/SCWarn
-367	FSE-2021-76	9	Amocy-Wang/ProbDD
-368	FSE-2022-10	9	Intelligent-CAT-Lab/SEER
-369	FSE-2022-78	9	kupl/PyTER
-370	ICSE-2020-15	8	NDStudyICSE2019/NDStudy
-371	ICSE-2020-28	8	deepbillboard/DeepBillboard
-372	ICSE-2020-79	8	zysszy/TransRepair
-373	ICSE-2021-18	8	swa112003/DistributionAwareDNNTesting
-374	ICSE-2021-107	8	gabrielcsf/malicious-updates-icse2021
-375	ICSE-2021-126	8	AlshammariA/FlakeFlagger
-376	ICSE-2022-87	8	sidongfeng/gifdroid
-377	ICSE-2022-160	8	less-lab-uva/perception_fuzzing
-378	ASE-2017-66	8	qixin5/ssFix
-379	ASE-2019-28	8	umairzahmed/tegcer
-380	ASE-2020-8	8	haoyang9804/RecBi
-381	ASE-2020-73	8	anyone546/OCoR
-382	ASE-2021-10	8	imcsq/ASE21-QAAskeR
-383	ASE-2021-47	8	Marsman1996/instruguard
-384	ISSTA-2017-20	8	qixin5/DiffTGen
-385	ISSTA-2022-16	8	CUHK-ARISE/AEON
-386	ISSTA-2022-24	8	tcse-iscas/Grand
-387	FSE-2017-7	8	WeiFoo/EasyOverHard
-388	FSE-2018-3	8	midwinter1993/Schnauzer
-389	FSE-2019-69	8	MCFuzzer/MCFuzz
-390	FSE-2020-12	8	kupl/HOMI_public
-391	FSE-2020-54	8	joymallyac/Fairway
-392	FSE-2021-14	8	fmehralian/COALA
-393	FSE-2022-21	8	sola-st/PythonTypeAnnotationStudy
-394	ICSE-2020-27	7	shafiul/slemi
-395	ICSE-2020-40	7	heterorefactor/heterorefactor
-396	ICSE-2020-46	7	COLA-Laboratory/icse2020
-397	ICSE-2021-22	7	dlshriver/DNNF
-398	ICSE-2021-32	7	sail-repos/PRIMA
-399	ICSE-2021-74	7	GIST-NJU/KEFE
-400	ICSE-2021-96	7	BOCA313/BOCA
-401	ICSE-2022-15	7	YintongHuo/ARCLIN
-402	ICSE-2022-89	7	ForAllSecure/GraphFuzz
-403	ICSE-2022-105	7	system-pclub/rust-programming-challenges
-404	ASE-2017-68	7	yangyixiaof/CodeCompletionPlugin
-405	ASE-2019-16	7	havrikov/covering-input-structure
-406	ASE-2019-43	7	xgdsmileboy/StateCoverLocator
-407	ASE-2020-24	7	ARiSE-Lab/Patch-as-translation
-408	ASE-2020-35	7	actionabletest/MCP
-409	ASE-2020-42	7	dgl-prc/rnn2automata
-410	ASE-2021-71	7	MattePalte/thinking-like-a-developer
-411	ISSTA-2020-11	7	datalossdetector/DLD
-412	ISSTA-2021-6	7	dlfaults/deepcrime
-413	ISSTA-2021-7	7	testingautomated-usi/DeepHyperion
-414	ISSTA-2021-27	7	Artisan-Lab/SMTimer
-415	ISSTA-2021-32	7	predoodl/predoo
-416	ISSTA-2022-48	7	iFixDataLoss/iFixDataloss22
-417	ISSTA-2022-52	7	ali-ghanbari/shibboleth
-418	FSE-2019-64	7	mryancai/ConVul
-419	FSE-2019-68	7	ZhouyangJia/SafeExit
-420	FSE-2021-31	7	githubhuyang/achyb
-421	FSE-2021-32	7	kupl/LearnML
-422	FSE-2021-35	7	AndroidFlakyTest/FlakeScanner
-423	FSE-2021-44	7	hehao98/LibraryMigration
-424	FSE-2021-87	7	castor-software/longitudinal-bloat
-425	FSE-2021-93	7	GLIB-game/GLIB
-426	FSE-2022-14	7	brains-on-code/NoviceVsExpert
-427	FSE-2022-62	7	G2SMM/G2SC
-428	FSE-2022-94	7	chenzhenpeng18/FSE22-MAAT
-429	ASE-2022-13	7	ase-decom/ASE22_DECOM
-430	ASE-2022-58	7	Trustworthy-Software/Quatrain
-431	ICSE-2018-23	6	stan6/droixbench
-432	ICSE-2020-23	6	gmu-swe/rivulet
-433	ICSE-2021-42	6	brains-on-code/fMRI-complexity-metrics-icse2021
-434	ICSE-2022-10	6	SATE-Lab/ATS
-435	ICSE-2022-11	6	SunflowerPKU/ICSE22_SC_Data
-436	ICSE-2022-73	6	waving7799/ExpGA
-437	ICSE-2022-80	6	toledosakasa/SMARTFL
-438	ICSE-2022-125	6	haibinzheng/NeuronFair
-439	ICSE-2022-144	6	promal-android/Promal
-440	ICSE-2022-180	6	fairnesstest/LTDD
-441	ICSE-2022-185	6	antonio-mastropaolo/LANCE
-442	ASE-2018-37	6	liuhuigmail/FeatureEnvy
-443	ASE-2018-61	6	ChunghaSung/EC-Diff
-444	ASE-2020-13	6	Osiris-Jupyter/Osiris
-445	ASE-2020-28	6	seal-hub/ERCatcher
-446	ASE-2020-64	6	lin-tan/dl-variance
-447	ASE-2020-68	6	SCDetector/SCDetector
-448	ASE-2020-91	6	hub-se/MoFuzz
-449	ISSTA-2022-18	6	cure-lab/HybridRepair
-450	FSE-2018-27	6	yangzhangs/cd_replication
-451	FSE-2018-46	6	XujieSi/fse18-artifact-183
-452	FSE-2019-22	6	JunjieChen/DiWi
-453	FSE-2019-28	6	maligulzar/BigTest
-454	FSE-2019-41	6	SBULeeLab/LinguaFranca-FSE19
-455	FSE-2019-63	6	kabinja/fse2019
-456	FSE-2020-78	6	pangeneral/AsyncChecker
-457	FSE-2021-65	6	ShangwenWang/Cognac
-458	FSE-2021-70	6	PrivacyStreams/TaintStream
-459	FSE-2021-94	6	devjeetr/Re-assessing-automatic-evaluation-metrics-for-source-code-summarization-tasks
-460	FSE-2021-99	6	ethanluoyc/sympais
-461	FSE-2022-20	6	VariantSync/DiffDetective
-462	FSE-2022-22	6	Commit-Untangling/commit-untangling
-463	FSE-2022-58	6	jacknichao/JIT-Fine
-464	ICSE-2020-109	6	PPPI/POSIT
-465	ICSE-2020-122	6	gzoumix/pdepa
-466	ASE-2022-7	6	TechSumBot/TechSumBot
-467	ASE-2022-16	6	imcsq/ASE22-MPPrioritize
-468	ASE-2022-33	6	CGCL-codes/Amain
-469	ASE-2022-46	6	IntelligentDDS/GIED
-470	ASE-2022-82	6	toolstemp/IAcontract
-471	ASE-2022-108	6	CGCL-codes/TreeCen
-472	ICSE-2018-62	5	CMUSTRUDEL/npm-badges
-473	ICSE-2019-24	5	zlfben/autotap
-474	ICSE-2020-20	5	ananevans/icse2020
-475	ICSE-2020-101	5	mpi-sv/mpi-sv-src
-476	ICSE-2020-102	5	ucd-plse/FPGen
-477	ICSE-2020-104	5	DehaiZhao/Seenomaly
-478	ICSE-2021-77	5	ncoop57/tango
-479	ICSE-2022-17	5	yh1105/Artifact-of-Assertion-ICSE22
-480	ICSE-2022-23	5	awsm-research/AutoTransform-Replication
-481	ICSE-2022-137	5	jhe16/PerfSig
-482	ASE-2017-10	5	normative-team/normative
-483	ASE-2017-33	5	gongbell/SimplyDroid
-484	ASE-2018-6	5	sselab/autoconfig
-485	ASE-2018-54	5	kaiyuanw/ARepair
-486	ASE-2020-14	5	se2p/bastet
-487	ASE-2020-48	5	COLA-Laboratory/ase2020
-488	ASE-2020-79	5	sola-st/string-bugs
-489	ASE-2021-12	5	rbavishi/vizsmith-demo
-490	ASE-2021-25	5	ucd-plse/Static-Bug-Detectors-ASE-Artifact
-491	ASE-2021-52	5	transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract
-492	ASE-2021-62	5	ase-test-migration/test-migration
-493	ASE-2021-73	5	cuhk-seclab/mdperffuzz
-494	ISSTA-2017-22	5	sonalmahajan/xfix
-495	ISSTA-2018-11	5	verml/VerifyML
-496	ISSTA-2019-28	5	uds-se/droidmate-bandits
-497	ISSTA-2020-1	5	yuqiChen94/Active_fuzzer
-498	ISSTA-2020-19	5	vrthra/ddset
-499	ISSTA-2021-2	5	webevoexp/webevo
-500	ISSTA-2021-18	5	CGCL-codes/HomDroid
-501	ISSTA-2022-47	5	wsong-nj/PermDroid
-502	FSE-2017-26	5	se-passau/thor-avm
-503	FSE-2018-4	5	umangm/ziptrack
-504	FSE-2019-5	5	SNTSVV/SOCRaTEs
-505	FSE-2019-43	5	ucd-plse/eesi
-506	FSE-2020-122	5	af-static-toolchains/aliflow-micro-benchmark
-507	FSE-2020-1	5	resess/ARDiff
-508	FSE-2020-33	5	SunflowerPKU/FSE20Dataset
-509	FSE-2020-83	5	FudanSELab/Research-FSE2020-FuncVerb
-510	FSE-2021-22	5	DynamicCodeSearch/COSAL
-511	FSE-2021-86	5	pmbittner/FeatureTraceRecording
-512	FSE-2022-32	5	sea-lab-wm/burt
-513	FSE-2022-61	5	VPRLab/BlkVulnDataset
-514	FSE-2022-99	5	chuanluocs/SamplingCA
-515	ICSE-2022-2	5	LASER-UMASS/Diva
-516	ASE-2022-75	5	seclab-fudan/AFV
-517	ASE-2022-86	5	obicons/sa4u
-518	ASE-2022-101	5	tsigalko18/ase22
-519	ICSE-2021-28	4	dessertlab/DeepEST
-520	ICSE-2021-112	4	Trustworthy-Software/RAICC
-521	ICSE-2021-137	4	sjmini/justgen
-522	ICSE-2022-33	4	tao2years/WeBug
-523	ICSE-2022-53	4	JieHE-2020/DeepSTL
-524	ICSE-2022-59	4	DescribeCTX/DescribeCTX
-525	ICSE-2022-60	4	soarsmu/SA_retrospective
-526	ICSE-2022-76	4	Tizpaz/Parfait-ML
-527	ICSE-2022-121	4	sola-st/Nalin
-528	ICSE-2022-136	4	truzz-fuzz/truzz-fuzz
-529	ICSE-2022-141	4	yiyuaner/ICSE-2022-Wit-data
-530	ASE-2017-51	4	pooyanjamshidi/ase17
-531	ASE-2017-87	4	sherfert/GTR
-532	ASE-2018-7	4	sola-da/TSFinder
-533	ASE-2018-55	4	PFixConcurrency/Fix
-534	ASE-2019-41	4	v2-project/v2
-535	ASE-2019-51	4	Method-Name-Recommendation/HeMa
-536	ASE-2020-58	4	lkyin/tool_adoptions
-537	ASE-2020-87	4	MetaOD/MetaOD
-538	ASE-2021-36	4	OpsPAI/grlia
-539	ASE-2021-42	4	moonZHH/PSGen
-540	ASE-2021-70	4	panshengyi/F2Chat
-541	ISSTA-2020-39	4	ucd-plse/FPDiff
-542	ISSTA-2022-4	4	Practical-Formal-Methods/pi-fuzz
-543	ISSTA-2022-17	4	charakageethal/grammar2fix
-544	ISSTA-2022-22	4	soarsmu/transfer
-545	ISSTA-2022-31	4	TensileFuzz/TensileFuzz
-546	FSE-2018-5	4	cs-au-dk/ajaxracer
-547	FSE-2018-58	4	JunjieChen/PTP
-548	FSE-2019-23	4	kupl/Chameleon
-549	FSE-2019-26	4	Prefest2018/Prefest
-550	FSE-2021-106	4	uber-research/go-context-propagate
-551	FSE-2020-67	4	SeekingDream/denas_fse2020
-552	FSE-2021-12	4	VET-UI-Testing/main
-553	FSE-2021-53	4	imcsq/FSE21-MT4MRC
-554	FSE-2021-55	4	rutgers-apl/PFPSanitizer
-555	FSE-2021-101	4	davidtr1037/klee-symsize
-556	FSE-2022-57	4	fixlocatorresearch/fixlocatorresearch
-557	FSE-2022-71	4	panshengyi/MemVul
-558	FSE-2022-91	4	jiangyanjie/RevisitingNaturalness
-559	FSE-2022-96	4	SeekingDream/NMTSloth
-560	ASE-2022-18	4	ariannab/callmemaybe
-561	ASE-2022-87	4	JiePKU/MIA-SafeCompress
-562	ASE-2022-98	4	qixin5/debloating_study
-563	ASE-2022-112	4	Yuanyuan-Yuan/Decision-Oracle
-564	ICSE-2017-7	3	ponder-lab/Migrate-Skeletal-Implementation-to-Interface-Refactoring
-565	ICSE-2018-25	3	saltlab/Testler
-566	ICSE-2018-95	3	saltlab/sabalan
-567	ICSE-2019-46	3	mileschen360/Higgs
-568	ICSE-2019-75	3	FICIssuePivot/Pivot
-569	ICSE-2020-2	3	AUEB-BALab/fsmove
-570	ICSE-2020-30	3	SNTSVV/ARIsTEO
-571	ICSE-2020-38	3	skull591/ComboDroid-Artifact
-572	ICSE-2020-52	3	FRMiner/FRMiner
-573	ICSE-2021-7	3	ZhouyangJia/DepOwl
-574	ICSE-2021-62	3	NAIST-SE/MetaMaintenancePotential
-575	ICSE-2021-75	3	UBCFinder/UBCFinder
-576	ICSE-2021-90	3	lingming/UniAPR
-577	ICSE-2021-117	3	SPEAR-SE/ICSE2021_Log_Level_Data
-578	ICSE-2022-62	3	Trustworthy-Software/Difuzer
-579	ICSE-2022-82	3	serval-uni-lu/flakime
-580	ICSE-2022-94	3	JavaTailor/CFSynthesis
-581	ICSE-2022-177	3	ubisoft/ubisoft-laforge-brownbuild
-582	ICSE-2022-178	3	CAS-LRJ/DeepPAC
-583	ICSE-2022-179	3	nemo9cby/ICSE2022Rep
-584	ICSE-2022-197	3	MeloFancy/SIRA
-585	ASE-2017-7	3	lucadt/testminer
-586	ASE-2017-74	3	UTSASRG/UnDead
-587	ASE-2017-80	3	spencerxiao/ase2017-results-and-tools
-588	ASE-2018-39	3	kupl/ConTest
-589	ASE-2020-12	3	SunghoLee/c-summary
-590	ASE-2020-15	3	x-y-zhao/iCPD
-591	ASE-2020-25	3	devjeetr/DeepTC-Enhancer-Improving-the-Readability-of-Automatically-Generated-Tests
-592	ASE-2020-31	3	SPEAR-SE/ASE2020_Logging_Location_Data
-593	ASE-2020-38	3	SBST-DPG/sbst-dpg
-594	ASE-2020-45	3	hanseychen/CoFI
-595	ASE-2020-50	3	tum-i22/CIS-Benchmark-Evaluation
-596	ASE-2020-69	3	FudanSELab/Research-ASE2020-APIComp
-597	ASE-2021-7	3	CGCL-codes/LambdaMisuse
-598	ASE-2021-9	3	EngineeringSoftware/wayout
-599	ASE-2021-13	3	jzySaber1996/ISPY
-600	ASE-2021-26	3	malusamayo/notebooks-analysis
-601	ASE-2021-53	3	RemilYoucef/sd-4sql
-602	ASE-2021-69	3	gerasimou/MDPSynthesis
-603	ISSTA-2017-13	3	BUseclab/hush
-604	ISSTA-2021-22	3	USC-SQL/SAND
-605	ISSTA-2022-11	3	testingautomated-usi/simple-tip
-606	ISSTA-2022-38	3	meng2180/LiRTest
-607	ISSTA-2022-56	3	wasai-project/wasai
-608	FSE-2017-5	3	minghuizhou/maintainerAnalysis
-609	FSE-2017-25	3	ai-se/Reimplement
-610	FSE-2019-80	3	ai-se/Data-for-automated-UI-testing-from-LexisNexis
-611	FSE-2018-17	3	dnnmode/buggymodels
-612	FSE-2019-7	3	paulgazz/kconfig_case_studies
-613	FSE-2019-34	3	wsong-nj/ServDroid
-614	FSE-2019-61	3	SoftwareDesignLab/AchillesHeel
-615	FSE-2020-0	3	SteveZhangBit/LTSA-Robust
-616	FSE-2020-19	3	dlocator-dev/dlocator
-617	FSE-2020-91	3	meelgroup/baital
-618	FSE-2020-95	3	poosomooso/SSHOM-Search
-619	FSE-2020-97	3	felicitia/FrUITeR
-620	FSE-2021-36	3	Symbolk/SmartCommitEvaluation-Viz
-621	FSE-2021-37	3	LiveChat2021/LiveChat#5-download
-622	FSE-2021-39	3	WenJinfeng/FSE21-Dataset_Script
-623	FSE-2021-82	3	fzlinshu/SoGen
-624	FSE-2021-92	3	chuanluocs/LS-Sampling
-625	FSE-2022-131	3	ArchitecturePractices/lsr_survey_artifacts
-626	FSE-2022-11	3	ITSEG-MQ/STRAP
-627	FSE-2022-47	3	lcynju/review2code
-628	FSE-2022-60	3	idiomaticrefactoring/pythonidiomsrefactor
-629	FSE-2022-101	3	wenxiwang/SymMC-Tool
-630	ASE-2022-51	3	anonymized-datascientist/Leveraging-Change-Information
-631	ASE-2022-73	3	qibinhang/CNNSplitter
-632	ICSE-2017-33	2	njuap/ICSE2017
-633	ICSE-2017-44	2	cwi-swat/static-analysis-reflection
-634	ICSE-2017-61	2	JunjieChen/let
-635	ICSE-2018-17	2	USC-SQL/mfix
-636	ICSE-2018-50	2	wtchoi/swifthand2
-637	ICSE-2018-89	2	KristopherBorn/multiCDA
-638	ICSE-2019-49	2	skillwind/RIDDLE
-639	ICSE-2019-77	2	iris-42/CTRAS
-640	ICSE-2019-82	2	VHellendoorn/Completion-Artifact
-641	ICSE-2020-22	2	kupl/SAVER_public
-642	ICSE-2020-80	2	trader-rnn/TRADER
-643	ICSE-2021-47	2	KSU-SDML/Method-Naming-Standards-Artifact
-644	ICSE-2021-66	2	wsong-nj/IMGDroid
-645	ICSE-2021-68	2	SNTSVV/ThEodorE
-646	ICSE-2021-70	2	ISRD2020/ISRD
-647	ICSE-2021-128	2	dynaroars/gentree
-648	ICSE-2022-118	2	TimHe95/SafeTune
-649	ICSE-2022-139	2	xing-hu/Practitioners-Expectations-on-Automated-Code-Comment-Generation
-650	ICSE-2022-148	2	vlab-cs-ucsb/quacky
-651	ICSE-2022-161	2	nengz/ShellFusion
-652	ICSE-2022-187	2	RosaliaTufano/rlgameauthors
-653	ASE-2017-22	2	elaghs/Working
-654	ASE-2017-43	2	wangpeipei90/RegexSmells
-655	ASE-2018-58	2	NTU-ALComLab/SLENT
-656	ASE-2019-6	2	DaPANDA2019/DaPANDA
-657	ASE-2019-40	2	anon4review/ACTGAN
-658	ASE-2019-57	2	senseconcordia/ASE2019Data
-659	ASE-2019-64	2	aucs2019/AuCS
-660	ASE-2019-86	2	spgroup/s3m
-661	ASE-2020-4	2	zhangj111/nexgen
-662	ASE-2020-29	2	DEMAR-requirements/DEMAR
-663	ASE-2020-52	2	TimHe95/CP-Detector
-664	ASE-2020-89	2	seal-hub/ASE20Empirical
-665	ASE-2021-2	2	xing-hu/SmartDoc
-666	ASE-2021-17	2	SuYanqi/LR-BKG
-667	ASE-2021-22	2	MDEGroup/APIRecSys-AML
-668	ASE-2021-32	2	winmutase21/WinMutASE21Artifact
-669	ASE-2021-33	2	SE-Efforts/SE_SSL
-670	ASE-2021-45	2	pasqualesalza/apization
-671	ASE-2021-51	2	thousfeet/Functionality-generalization
-672	ASE-2021-66	2	decentL/iFIZZ-ASE21
-673	ISSTA-2019-11	2	winglam/RootFinder
-674	ISSTA-2021-10	2	cicilzx/DialTest
-675	ISSTA-2021-16	2	SEG-DENSE/Guider
-676	ISSTA-2021-33	2	uiuc-arc/tera
-677	ISSTA-2021-38	2	ConfEIT-code/CeitInspector
-678	ISSTA-2022-1	2	agb94/FDG-artifact
-679	ISSTA-2022-51	2	SEG-DENSE/VALA
-680	FSE-2017-39	2	moji1/MDebugger
-681	FSE-2017-72	2	FAU-Inf2/ARES
-682	FSE-2019-16	2	matteobiagiola/FSE19-submission-material-TEDD
-683	FSE-2019-53	2	software-rebels/ReviewLinkageGraph
-684	FSE-2020-28	2	AI-4-SE/Dimensions-of-Software-Configuration
-685	FSE-2020-44	2	EngineeringSoftware/hdlp
-686	FSE-2020-74	2	Lizn-zn/Op-QA
-687	FSE-2020-90	2	SinkFinder/data
-688	FSE-2021-41	2	UH-SERG/SIVAND
-689	FSE-2021-52	2	jiangyanjie/smartExpander
-690	FSE-2021-64	2	y-ding/gil
-691	FSE-2021-85	2	maxhort/Fairea
-692	FSE-2021-96	2	kaist-plrg/safe-ds
-693	FSE-2022-75	2	tjark/Par
-694	FSE-2022-86	2	kaist-plrg/jsaver
-695	FSE-2022-98	2	wssun/RULER
-696	ICSE-2020-124	2	wangjunjieISCAS/InProcessRecommendation
-697	ICSE-2020-36	2	shuiblue/ICSE20-hardfork-appendix
-698	ASE-2022-30	2	SeekingDream/DeepPerform
-699	ASE-2022-40	2	rishabh-ranjan/simian
-700	ASE-2022-67	2	pkuserc/MPCos_ASE2022
-701	ASE-2022-84	2	yanxiao6/InputReflector
-702	ASE-2022-102	2	seal-hub/Oversight
-703	ASE-2022-113	2	huiAlex/TAROT
-704	ICSE-2018-142	1	cuplv/droidstar
-705	ICSE-2019-55	1	yinliangze/yogar-cbmc-parallel
-706	ICSE-2019-95	1	shaifulcse/GreenBundle-Data-Code
-707	ICSE-2020-90	1	dlfaults/dl_faults
-708	ICSE-2020-98	1	CMUSTRUDEL/oss-donations
-709	ICSE-2020-107	1	Abdulaziz89/accessibility_eval
-710	ASE-2018-77	1	njaliu/sgram-artifact
-711	ICSE-2021-3	1	t-rasmud/checker-framework
-712	ICSE-2021-16	1	chuanluocs/AutoCCAG
-713	ICSE-2021-31	1	Testing-Multiple-DL-Models/SDS
-714	ICSE-2021-86	1	miguelvelezmj25/icse21-sm
-715	ICSE-2021-105	1	SUNY-BU-Software-Systems-Research-Group/PaparazziBF
-716	ICSE-2022-28	1	BugListener/BugListener2022
-717	ICSE-2022-30	1	dubslaff/FeatCause
-718	ICSE-2022-52	1	SATE-Lab/DeepState
-719	ICSE-2022-159	1	YiXiangScut/NSbS
-720	ICSE-2022-168	1	skkusal/symtuner
-721	ICSE-2022-175	1	xingzhang-pku/BidirectionalPreview
-722	ASE-2017-28	1	SunghoLee/AIDetector
-723	ASE-2017-41	1	sulir/runtimesearch
-724	FSE-2017-87	1	jairud-garcia/rails-model-extractor
-725	ASE-2018-21	1	vovak/branches
-726	ASE-2018-52	1	felicitia/PALOMA-Analysis
-727	ASE-2018-64	1	AndroidMist/Mist
-728	ASE-2018-70	1	mikacashman/ASE18SupResources
-729	ASE-2019-60	1	glnmzx888/class-overlap
-730	ASE-2019-62	1	MAPCoverage/Map-Coverage
-731	ASE-2019-80	1	jyothivedurada/BatchAnalyzer
-732	ASE-2020-26	1	sea-lab/hybrid-net
-733	ASE-2020-27	1	skdebray/ASE-2020
-734	ASE-2020-63	1	jinwuxia/ASE2020data
-735	ASE-2020-67	1	zhiyuan-wan/ASE_2020_predicting_code_context
-736	ASE-2020-75	1	ProdigyXable/UnifiedDebuggingStudy
-737	ASE-2020-90	1	cps-sei/cps-synth-resolultion
-738	ASE-2021-40	1	tcse-iscas/nrace
-739	ASE-2021-46	1	noisysilence-max/Failure-Inducing-Input-Generation
-740	ISSTA-2018-21	1	fikovnik/ISSTA18-Artifact
-741	ISSTA-2018-28	1	USC-SQL/RAT-TRAP
-742	ISSTA-2020-10	1	sakura182/Maca
-743	ISSTA-2020-16	1	arnabsharma91/MonotonicityChecker
-744	ISSTA-2022-53	1	guolong-zheng/atmprep
-745	FSE-2017-9	1	WeiFoo/RevisitUnsupervised
-746	FSE-2017-15	1	brains-on-code/paper-esec-fse-2017
-747	FSE-2017-28	1	AlexanderKnueppel/is-there-a-mismatch
-748	FSE-2017-33	1	karthikp-ubc/Artinali
-749	FSE-2017-49	1	vlab-cs-ucsb/cashew
-750	FSE-2017-71	1	PythonLAMP/LAMP
-751	FSE-2017-74	1	rtholmes/RealTestFailures
-752	FSE-2018-24	1	FraudDroid-mobile-ad-fraud/ExperimentResults
-753	FSE-2018-28	1	fayekia/FSE_2018
-754	FSE-2018-60	1	PAMSE/PAFAnalysis
-755	FSE-2018-62	1	pl-aeneas/aeneas
-756	FSE-2019-14	1	4DataShare/AbbExpansion
-757	FSE-2019-17	1	se2p/artifact-esecfse2019
-758	FSE-2019-24	1	seepep/promocalls
-759	FSE-2020-113	1	fengjincao/AeroReqDemoForFSE
-760	FSE-2021-110	1	manual-testing-study/manual-testing-esec-fse-21
-761	FSE-2020-2	1	C2S-FSE/C2S
-762	FSE-2020-39	1	bhermann/artifact-survey
-763	FSE-2020-42	1	CMUSTRUDEL/badge_diffusion_supplementary
-764	FSE-2020-63	1	josepablocam/ams
-765	FSE-2020-81	1	sealuzh/jmh
-766	FSE-2020-82	1	ManCla/ESEC-FSE-2020
-767	FSE-2021-8	1	sav-smu/plc-code-integrity
-768	FSE-2021-19	1	tongyanxiang/MoD2
-769	FSE-2021-42	1	taochen/mmo-fse-2021
-770	FSE-2021-46	1	d-fact/gumtree
-771	FSE-2021-47	1	SPEAR-SE/FSE2021_DPLOG
-772	FSE-2021-49	1	wx930910/JMocker
-773	FSE-2021-54	1	uiuc-arc/flex
-774	FSE-2021-58	1	MangoTeam/mockdown
-775	FSE-2021-60	1	HALOCORE/SynGuar
-776	FSE-2022-26	1	MEPalma/HLNN-ReplicationPackage
-777	FSE-2022-56	1	KadjelRamkisoen/PaReco
-778	FSE-2022-63	1	DavidMOBrien/23Shades
-779	ICSE-2020-126	1	qWe1aSd/malPre
-780	ASE-2022-48	1	seal-hub/Groundhog
-781	ASE-2022-68	1	MalTools/MalWhiteout
-782	ASE-2022-79	1	FormalAIze/NeWise
-783	ASE-2022-110	1	yangzhangs/ase2022-UPDBD
-784	ICSE-2017-25	0	cs-au-dk/EventRaceCommander
-785	ICSE-2017-57	0	aperez/evosuite
-786	ICSE-2018-22	0	felicitia/PALOMA
-787	ICSE-2018-29	0	igorsteinmacher/ICSE_QuasiContributors
-788	ICSE-2018-126	0	jmguo/balanceValidity
-789	ICSE-2018-127	0	jwlin/Nemo
-790	ICSE-2018-135	0	JurajKubelka/ExploratoryStudyInPharo
-791	ICSE-2019-3	0	CESEL/CodeEntropyReplication
-792	ICSE-2019-45	0	anonymousICSE2019/patchcorrectness
-793	ICSE-2019-50	0	cuidi34/ICSE19-Data
-794	ICSE-2019-72	0	rheradio/VMStatAnal
-795	ICSE-2019-78	0	wangjunjieISCAS/CM
-796	ICSE-2019-93	0	se-passau/Distance-Based_Data
-797	ICSE-2019-105	0	SAREC-Lab/SAFA-Artifacts
-798	ICSE-2020-18	0	yirugi/JSFlowTamper
-799	ICSE-2020-48	0	USI-INF-Software/Conf-ReplicationPackage-ICSE2020
-800	ICSE-2020-73	0	drzhonghao/parameterstudy
-801	ICSE-2020-74	0	senseconcordia/API-Workarounds
-802	ICSE-2020-75	0	goodchar/public-package-about-Official-API-Usage-Directives-Demysitification-Report
-803	ASE-2018-76	0	yeluting/KaggleDataset
-804	ICSE-2021-5	0	SPEAR-SE/TestAnnotationMaintenance_Data
-805	ICSE-2021-48	0	CelloCorgi/ICSE_fNIRS2021
-806	ICSE-2021-59	0	truelova/ICSE_2021_UpdateNotes
-807	ICSE-2021-67	0	xinwei2124/fPMC_ICSE
-808	ICSE-2021-119	0	SNTSVV/MAANA
-809	ICSE-2021-120	0	pag-iiitd/DocDependency
-810	ICSE-2021-129	0	msbajammal/icse2021
-811	ICSE-2022-7	0	meelgroup/approxcov
-812	ICSE-2022-55	0	zxhree/default
-813	ICSE-2022-75	0	fadatestdbt/fadatest
-814	ICSE-2022-90	0	stefanos1316/ICSE_2022_artifact
-815	ICSE-2022-96	0	nilsmehlhorn/loop-stream-rct
-816	ICSE-2022-113	0	giangnm58/Manas
-817	ICSE-2022-154	0	UT-SE-Research/ODRepair
-818	ASE-2017-29	0	anosubmission/mutaflow-data
-819	ASE-2017-77	0	gustavopinto/fjdetector
-820	ASE-2017-82	0	parsimony-ide/ase2017-extra
-821	ASE-2017-91	0	StevenReiss/seede
-822	ASE-2018-5	0	xha225/PerfLearner
-823	ASE-2018-43	0	Programming-Systems-Lab/Parikshan
-824	FSE-2018-85	0	sei-pku/nestif
-825	ASE-2019-13	0	goodchar/Controversy-summary-of-Stack-Overflow-posts
-826	ASE-2019-17	0	pag-iiitd/Segate
-827	ASE-2019-38	0	BoiseState/string-constraint-counting
-828	ASE-2019-44	0	TarannumZaman/Scminer
-829	ASE-2020-16	0	danieltrt/Distinguisher
-830	ASE-2020-32	0	JunjieChen/DeepIP
-831	ASE-2020-46	0	LavaOps/ChemTest
-832	ASE-2020-51	0	AI-4-SE/Changepoints-Across-Variants-And-Versions
-833	ASE-2020-55	0	EasyRegex/FlashRegex
-834	ASE-2020-83	0	SNTSVV/SB-TemPsy
-835	ASE-2020-84	0	cedricrupb/cst_transform
-836	ASE-2021-16	0	tudo-aqua/paper-reproduction-package-ase2021
-837	ASE-2021-21	0	Chenguang-Zhu/relancer
-838	ASE-2021-28	0	amordahl/satune
-839	ASE-2021-55	0	sen-he/Metior
-840	ASE-2021-58	0	2021-CONFDATA/2021-CONF-DATA
-841	ASE-2021-61	0	mycoderesearch/CDFRecommendation
-842	ASE-2021-75	0	code4papers/ALempirical
-843	ASE-2021-80	0	opalj/CiFi-Benchmark
-844	ISSTA-2018-5	0	seungyeob/issta2018-mosis
-845	ISSTA-2020-28	0	hildebrandt-carl/RobotTestGeneration
-846	ISSTA-2020-29	0	Icysandwich/cachecheck
-847	ISSTA-2020-40	0	ustbsoftlang/issta2020-hpnsp
-848	ISSTA-2021-11	0	AdvDoor/AdvDoor
-849	ISSTA-2021-30	0	gadse-bug/bugs
-850	ISSTA-2021-31	0	clothildejeangoudoux/Magneto
-851	ISSTA-2022-8	0	SOLAR-group/dpevalmeasures
-852	ISSTA-2022-10	0	YANG-Yuting/Epsilon-weakened-Robustness-of-Deep-Neural-Networks
-853	ISSTA-2022-15	0	SATE-Lab/ASRTest
-854	ISSTA-2022-34	0	tcse-iscas/iBugs
-855	FSE-2017-47	0	d-bingham/wildcaughtmutants
-856	FSE-2017-51	0	lpasquale/kEEPER
-857	FSE-2018-8	0	cmu-mars/model-learner
-858	FSE-2018-33	0	parasol-aser/MPC
-859	FSE-2018-41	0	ai-se/FFT_Jack
-860	FSE-2018-54	0	sola-da/DifferentialDebuggerTesting
-861	FSE-2019-52	0	testrepo007/AggrePlay
-862	FSE-2019-58	0	non-conformances-research/fse2019
-863	FSE-2020-9	0	xurongchen/fse20
-864	FSE-2020-13	0	SNTSVV/EPIcuRus
-865	FSE-2020-29	0	niuye8911/rapid_m
-866	FSE-2020-31	0	docable/docable
-867	FSE-2020-32	0	devuxd/RulePad
-868	FSE-2020-80	0	pl-chappie/chappie
-869	FSE-2020-87	0	chbrown13/suggestions
-870	FSE-2020-89	0	UL-SnT-Serval/coeva2
-871	FSE-2021-124	0	mpls-fse/mpls
-872	FSE-2021-11	0	sujon335/AlgebraicDatatypeTaintTracker
-873	FSE-2021-18	0	SteveZhangBit/alloy-maxsat-benchmark
-874	FSE-2021-45	0	FudanSELab/Research-ESEC-FSE2021-APIDirective
-875	FSE-2021-66	0	CelloCorgi/FSE2021_To_Read_or_to_Rotate
-876	FSE-2021-75	0	swarmbug/src
-877	FSE-2021-89	0	boyang9602/FSE_Ignore_Test
-878	FSE-2022-121	0	PackDiff/PackDiff
-879	FSE-2022-126	0	Luckyliue/removed_reviews
-880	FSE-2022-24	0	Fraunhofer-SIT/FSE22-CodeSmells
-881	FSE-2022-38	0	SageSELab/Avgust
-882	FSE-2022-45	0	awsm-research/CommentFinder
-883	FSE-2022-74	0	LeoQ7/DeJITLeak
-884	FSE-2022-77	0	yoavalon/GNNProgramTermination
-885	FSE-2022-80	0	glGarg/DeepDev-PERF
-886	FSE-2022-97	0	czycurefun/testcase_detection
-887	ICSE-2020-116	0	senseuwaterloo/ICSE2020-Performance
-888	ICSE-2020-119	0	winglam/flaky-test-lifecycle-data
-889	ASE-2022-9	0	ExtPPCompliance/PPCompliance
-890	ASE-2022-15	0	AI-EnabledSoftwareEngineering-AISE/B-AIS
-891	ASE-2022-20	0	chenpolong/TLNet
-892	ASE-2022-25	0	SuYanqi/SYS-KG
-893	ASE-2022-34	0	tcse-iscas/DT2
-894	ASE-2022-38	0	HoneyAsclepius/HoneyAsclepius
-895	ASE-2022-60	0	LavaOps/LeakReducer
-896	ASE-2022-81	0	QVIP22/Data
-897	ASE-2022-85	0	RobustTrainer/RobustTrainer
-898	ASE-2022-88	0	davidfa71/Sampling-the-Linux-kernel
-899	ASE-2022-92	0	smartpip/smartpip
-900	ASE-2022-97	0	ksun212/Stray
-901	ASE-2022-115	0	drhaozhong/thex
+rank,paper_id,star,repo_name
+1,FSE-2020-108,5760,microsoft/MMdnn
+2,FSE-2019-67,3448,uber/NullAway
+3,ICSE-2021-26,2047,github/CodeSearchNet
+4,ICSE-2022-43,1756,microsoft/CodeBERT
+5,FSE-2022-87,1756,microsoft/CodeBERT
+6,ICSE-2018-79,539,ravichugh/sketch-n-sketch
+7,ICSE-2020-43,492,smartbugs/smartbugs
+8,ICSE-2018-56,319,tsantalis/RefactoringMiner
+9,ICSE-2019-103,290,acid-state/acid-state
+10,ICSE-2018-117,274,guxd/deep-code-search
+11,ICSE-2021-132,269,vitsalis/pycg
+12,ASE-2018-45,239,carolemieux/afl-rb
+13,FSE-2019-48,237,mc-imperial/jfs
+14,ICSE-2022-193,221,CGCL-codes/naturalcc
+15,FSE-2022-103,221,CGCL-codes/naturalcc
+16,ASE-2018-26,218,gongbell/ContractFuzzer
+17,ICSE-2018-120,209,CozySynthesizer/cozy
+18,ICSE-2019-67,204,zhangj1994/astnn
+19,ISSTA-2018-27,198,xgdsmileboy/SimFix
+20,ISSTA-2018-9,181,ChrisCummins/phd
+21,FSE-2018-7,167,logpai/Log3C
+22,ASE-2018-23,148,2bdenny/ReScue
+23,ICSE-2019-63,146,SoftSec-KAIST/Eclipser
+24,FSE-2017-24,134,tingsu/Stoat
+25,ISSTA-2018-23,128,carolemieux/perffuzz
+26,ICSE-2018-113,125,FeatureIDE/FeatureIDE
+27,ICSE-2019-8,119,ropas/sparrow
+28,ASE-2021-20,118,SoftSec-KAIST/Smartian
+29,ICSE-2022-112,114,LogIntelligence/LogADEmpirical
+30,ASE-2018-13,111,TrustAI/DeepConcolic
+31,ICSE-2019-62,109,zhunki/Superion
+32,ISSTA-2022-0,107,vul337/jTrans
+33,ICSE-2020-39,103,DroidTest/TimeMachine
+34,ICSE-2021-12,98,facebookresearch/code-prediction-transformer
+35,FSE-2017-46,98,LASER-UMASS/Themis
+36,ASE-2020-77,95,BorgwardtLab/GraphKernels
+37,ISSTA-2020-0,91,andreafioraldi/weizz-fuzzer
+38,FSE-2020-98,90,chenjshnn/Object-Detection-for-Graphical-User-Interface
+39,FSE-2017-10,89,mmjb/T2
+40,FSE-2020-58,85,Practical-Formal-Methods/storm
+41,ICSE-2021-95,84,bdqnghi/infercode
+42,ASE-2021-41,78,vanhoanglepsa/NeuralLog
+43,ASE-2017-38,76,SoftSec-KAIST/MeanDiff
+44,FSE-2021-21,76,jeresig/dromaeo
+45,ICSE-2021-60,73,GUIDesignResearch/GUIGAN
+46,ICSE-2021-109,69,google/tsec
+47,ISSTA-2020-33,67,DependableSystemsLab/SolidiFI
+48,ASE-2017-36,66,kdudka/predator
+49,ISSTA-2021-49,66,ibm/jsonsubschema
+50,ICSE-2017-29,65,IIE-LibD/libd
+51,FSE-2017-69,65,SLP-Team/SLP-Core
+52,ICSE-2022-83,63,ise-uiuc/FreeFuzz
+53,ISSTA-2019-4,61,prapr/prapr
+54,FSE-2021-62,60,bayesgroup/code_transformers
+55,ICSE-2021-116,59,YangLin-George/PLELog
+56,ASE-2018-35,58,data61/PSL
+57,FSE-2018-14,58,parasol-aser/deepsim
+58,FSE-2021-29,57,vulnerabilitydetection/VulnerabilityDetectionResearch
+59,ISSTA-2020-32,56,valour01/arm_disasssembler_study
+60,FSE-2021-61,56,CUMLSec/stateformer
+61,ICSE-2020-83,54,SoftSec-KAIST/Ankou
+62,ICSE-2019-23,53,tianxiaogu/ape
+63,ISSTA-2021-20,53,HexHive/Gramatron
+64,ICSE-2017-34,52,llmhyy/microbat
+65,ISSTA-2020-8,50,lin-tan/CoCoNut-Artifact
+66,FSE-2018-15,49,DeepTyper/DeepTyper
+67,FSE-2020-65,49,Jacob-yen/LEMON
+68,FSE-2022-51,49,rindPHI/isla
+69,ASE-2019-74,47,logpai/logzip
+70,ASE-2021-49,47,JetBrains-Research/PyNose
+71,ISSTA-2022-32,47,vul337/PrIntFuzz
+72,FSE-2021-33,47,pkuzqh/Recoder
+73,ICSE-2022-192,46,CGCL-codes/VulCNN
+74,ASE-2017-65,46,bugs-dot-jar/bugs-dot-jar
+75,ASE-2019-89,46,1dayto0day/B2SFinder
+76,FSE-2022-79,46,awsm-research/VulRepair
+77,ICSE-2020-42,45,CC2Vec/CC2Vec
+78,ICSE-2020-87,44,giganticode/codeprep
+79,ICSE-2018-34,43,deeplearningTest/deepTest
+80,ICSE-2020-114,43,sameerreddy13/rlcheck
+81,ICSE-2019-89,42,coinse/sadl
+82,ISSTA-2018-22,42,albertogoffi/toradocu
+83,ICSE-2021-93,41,lin-tan/CURE
+84,ASE-2018-48,41,llmhyy/tregression
+85,FSE-2022-35,41,adf1178/PT4Code
+86,FSE-2022-65,41,sola-st/DynaPyt
+87,ICSE-2018-92,40,sola-da/ConflictJS
+88,ICSE-2022-111,40,ltlfuzzer/LTL-Fuzzer
+89,ISSTA-2019-17,40,DeepFL/DeepFaultLocalization
+90,ICSE-2022-3,40,MCUSec/microAFL
+91,ICSE-2022-4,38,NougatCA/SPT-Code
+92,ASE-2021-48,38,Artisan-Lab/RULF
+93,ICSE-2020-112,38,zhangj111/rencos
+94,ICSE-2022-165,37,acieroid/wassail
+95,ICSE-2022-189,37,squaresLab/VarCLR
+96,ASE-2018-63,37,FudanSELab/CLDIFF
+97,FSE-2020-15,37,stg-tud/opal
+98,FSE-2021-57,36,Practical-Formal-Methods/queryFuzz
+99,FSE-2022-6,36,saikat107/NatGen
+100,ICSE-2018-49,35,gmu-swe/deflaker
+101,ICSE-2019-15,35,isstac/diffuzz
+102,ICSE-2021-69,35,wooseunghoon/Centris-public
+103,ISSTA-2021-45,35,renardbebe/Smart-Contract-Benchmark-Suites
+104,FSE-2020-18,35,seclab-ucr/UBITect
+105,ICSE-2021-121,34,ataraxie/codeshovel
+106,ISSTA-2021-17,34,setting-defect-fuzzing/home
+107,ASE-2022-36,34,bajinsheng/ReZZan
+108,ICSE-2018-67,33,RafaelTupynamba/quicksampler
+109,ICSE-2022-104,33,chicharitomu14/AndScanner
+110,FSE-2018-29,33,DeccaDC/Decca
+111,FSE-2020-61,33,rahlk/MTFuzz
+112,FSE-2021-77,33,paulgazz/kmax
+113,ICSE-2019-68,32,mcmillco/funcom
+114,ICSE-2019-69,32,lfd/PaStA
+115,ICSE-2022-122,32,soarsmu/attack-pretrain-models-of-code
+116,ASE-2020-54,32,kaist-plrg/jiset
+117,ISSTA-2021-51,32,PanYicheng/dycause_rca
+118,ISSTA-2022-25,32,SongXueZhi/RegMiner
+119,ICSE-2018-152,32,kupl/ParaDySE
+120,ICSE-2018-6,31,ReMine-Lab/IDEA
+121,ICSE-2018-75,31,parasol-aser/UFO
+122,ICSE-2018-119,31,facoy/facoy
+123,ICSE-2021-13,31,RosaliaTufano/code_review
+124,ICSE-2022-138,31,githubnext/amalfi-artifact
+125,ASE-2019-9,31,secure-software-engineering/COVA
+126,ISSTA-2019-5,31,SerVal-DTF/TBar
+127,ISSTA-2020-2,31,uds-se/lFuzzer
+128,ICSE-2017-35,30,gustavoasoares/refazer
+129,ASE-2022-43,30,SoftSec-KAIST/Fuzzle
+130,ICSE-2022-81,29,DJjjjhao/FIRA-ICSE
+131,ICSE-2022-173,29,microsoft/toga
+132,ISSTA-2018-12,29,ForeverZyh/TensorFlow-Program-Bugs
+133,ISSTA-2020-41,29,shiyy123/FCDetector
+134,ISSTA-2021-34,29,ZZR0/ISSTA21-JIT-DP
+135,ISSTA-2018-6,28,exatoa/Bench4BL
+136,ISSTA-2022-14,28,lin-tan/DocTer
+137,FSE-2019-76,28,SEntiMoji/SEntiMoji
+138,ICSE-2020-49,27,ICSE-2019-AUTOFIX/ICSE-2019-AUTOFIX
+139,ICSE-2022-117,27,library-testing/Muffin
+140,ICSE-2020-64,26,Practical-Formal-Methods/bran
+141,ICSE-2022-131,26,DeepSoftwareAnalytics/CodeSumEvaluation
+142,ASE-2021-38,26,neil-kulkarni/arvada
+143,FSE-2022-95,26,ChijinZ/Minerva
+144,ICSE-2019-28,25,dockerizeme/dockerizeme
+145,ICSE-2021-27,25,antonio-mastropaolo/T5-learning-ICSE_2021
+146,ICSE-2021-58,25,vasumv/bonsai-fuzzing
+147,ICSE-2022-92,25,CelloCorgi/HashingItOut_ICSE2022
+148,ISSTA-2019-7,25,ucam-cl-dtg/LibID
+149,ICSE-2020-57,24,DeepImportance/deepimportance_code_release
+150,ASE-2019-39,24,vlab-cs-ucsb/ABC
+151,ASE-2021-34,24,awsm-research/PyExplainer
+152,ISSTA-2022-35,24,BBge/FirmSecDataset
+153,FSE-2018-36,24,vlab-cs-ucsb/ABC
+154,ASE-2022-21,24,EngineeringSoftware/CoditT5
+155,ICSE-2018-121,23,viatra/VIATRA-Generator
+156,ICSE-2019-26,23,sola-da/NL2Type
+157,ICSE-2019-107,23,dgl-prc/m_testing_adversatial_sample
+158,ICSE-2021-135,23,VPDroid/Dev
+159,ICSE-2022-9,23,OpsPAI/ADSketch
+160,ICSE-2022-145,23,Tritlo/PropR
+161,ASE-2019-33,23,githubhuyang/refactory
+162,ISSTA-2020-12,22,anlalalu/Q-testing
+163,FSE-2017-67,22,jyi/ITSP
+164,FSE-2018-16,22,jjhenkel/code-vectors-artifact
+165,FSE-2021-78,22,sola-st/SemSeed
+166,FSE-2021-83,22,ShenQingchao/DLCstudy
+167,FSE-2022-31,22,MulongXie/GUI-Perceptual-Grouping
+168,ASE-2022-22,22,EngineeringSoftware/jattack
+169,ASE-2022-63,22,tianzhaotju/LEAM
+170,ASE-2022-105,22,lkpsg/ccscanner
+171,ICSE-2017-26,21,srasthofer/FuzzDroid
+172,ICSE-2022-97,21,mxx1219/TRANSFER
+173,ISSTA-2017-8,21,pietrobraione/sushi
+174,ISSTA-2020-6,21,yilinglou/proFL
+175,ISSTA-2021-50,21,rshariffdeen/FixMorph
+176,FSE-2021-117,21,FISCO-BCOS/SCStudio
+177,FSE-2021-80,21,JetBrains-Research/authorship-detection
+178,ICSE-2017-36,20,Adobee/ACS
+179,ICSE-2021-92,20,STAR-RG/shipwright
+180,ICSE-2022-16,20,zetang94/ICSE2022_AST_Trans
+181,ICSE-2022-45,20,AutomatedProgramRepair-2021/dear-auto-fix
+182,ICSE-2022-102,20,JordanSamhi/JuCify
+183,ASE-2017-13,20,senticr/SentiCR
+184,ASE-2017-61,20,season-lab/memsight
+185,ASE-2019-22,20,xgdsmileboy/GenPat
+186,ISSTA-2018-29,20,isstac/badger
+187,ISSTA-2021-14,20,TOLLER-Android/main
+188,FSE-2020-14,20,vrthra/mimid
+189,ICSE-2020-29,19,testingautomated-usi/selforacle
+190,ICSE-2021-44,19,lukasmoldon/GHStreaksThesis
+191,ICSE-2021-45,19,sola-st/IdBench
+192,ISSTA-2020-13,19,kupl/ADAPT
+193,ISSTA-2020-31,19,plast-lab/native-scanner
+194,FSE-2018-20,19,MrVPlusOne/Singularity
+195,FSE-2021-27,19,Song-Li/ObjLupAnsys
+196,ICSE-2020-125,19,twelveand0/CarrotsBlender
+197,ASE-2022-23,19,soarsmu/Compressor
+198,ICSE-2021-130,18,SMAT-Lab/SnifferDog
+199,ICSE-2022-124,18,SophieHYe/RewardRepair
+200,ICSE-2022-186,18,RosaliaTufano/code_review_automation
+201,FSE-2017-91,18,Microsoft/rudder
+202,ASE-2019-15,18,Tbabm/PRSummarizer
+203,ISSTA-2018-25,18,karkhaz/tuscan
+204,ISSTA-2019-18,18,secure-software-engineering/swan
+205,ISSTA-2022-12,18,yonsei-cysec/XBA
+206,ISSTA-2022-23,18,codingsoo/REST_GO
+207,ISSTA-2022-29,18,diewufeihong/SLIME
+208,FSE-2019-72,18,bdqnghi/SAR_API_mapping
+209,FSE-2020-30,18,xlab-uiuc/cdep-fse
+210,FSE-2022-13,18,BuiltOntheRock/FSE22_BuiltOntheRock
+211,ICSE-2019-0,17,TruX-DTF/debug-method-name
+212,ICSE-2022-54,17,FudanSELab/DeepTraLog
+213,ICSE-2022-120,17,MVDetection/MVD
+214,ASE-2017-60,17,srg-imperial/klee-float
+215,ASE-2019-88,17,Kawser-nerd/CLCDSA
+216,ISSTA-2022-3,17,ZZR0/ISSTA22-CodeStudy
+217,FSE-2021-63,17,facebookresearch/mmd
+218,FSE-2022-90,17,zhangzwwww/DietCode
+219,ASE-2022-27,17,sola-st/crystalbleu
+220,ASE-2022-71,17,se2p/whisker
+221,ICSE-2018-97,16,Ultimanecat/DefectRepairing
+222,ICSE-2019-11,16,AndroidTestBugReport/ReCDroid
+223,ICSE-2019-27,16,tianyi-zhang/ExampleStack-ICSE-Artifact
+224,ASE-2017-5,16,wsong-nj/EHBDroid
+225,ASE-2018-19,16,logpai/LoggingDescriptions
+226,ASE-2021-59,16,lhmtriet/DeepCVA
+227,ISSTA-2021-24,16,drzchen/movec
+228,FSE-2019-50,16,TestingResearchIllinois/iFixFlakies
+229,FSE-2021-102,16,andromeda/lya
+230,ICSE-2017-23,15,michaelpradel/ConTeGe
+231,ICSE-2019-83,15,sealuzh/PerformanceHat
+232,ICSE-2020-44,15,sjmini/icse2020-Solidity
+233,ICSE-2021-15,15,xlab-uiuc/open-cevo
+234,ICSE-2021-102,15,kbcao/sequer
+235,ICSE-2022-39,15,neu-se/CONFETTI
+236,ICSE-2022-72,15,rschumi0/ExAIS
+237,ICSE-2022-88,15,NAIST-SE/GHSponsors
+238,ASE-2021-54,15,OpsPAI/aid
+239,ISSTA-2020-34,15,phaller/reactive-async
+240,ISSTA-2021-12,15,ylimit/ModelDiff
+241,ISSTA-2021-36,15,xlab-uiuc/ctest_prio_art
+242,FSE-2018-25,15,columbia/appflow
+243,FSE-2019-30,15,SerVal-DTF/iFixR
+244,ICSE-2018-18,14,squaresLab/footpatch
+245,ICSE-2021-24,14,SmallkeyChen/RobOT
+246,ICSE-2021-108,14,salmanee/Librarian
+247,ICSE-2022-36,14,saltudelft/codefill
+248,ICSE-2022-103,14,PyEGo/PyEGo
+249,ICSE-2022-132,14,v587su/NLQF
+250,ASE-2018-57,14,squaresLab/SemanticCrashBucketing
+251,ASE-2020-49,14,tbabm/CUP
+252,ASE-2021-65,14,cyruscyliu/firmguide
+253,ISSTA-2020-14,14,deepgini/deepgini
+254,ISSTA-2020-23,14,COLA-Laboratory/issta2020
+255,ISSTA-2021-21,14,yannicnoller/qfuzz
+256,FSE-2022-40,14,sslab-gatech/robofuzz
+257,ASE-2022-41,14,testsmt/janus
+258,ASE-2022-96,14,kwz219/NPR4J
+259,ICSE-2019-39,13,deekshaarya4/Info_Types_in_OSS_Issue_Discussions
+260,ICSE-2019-99,13,archer29m/AndroidSlicer
+261,ICSE-2021-123,13,theosotr/cynthia
+262,ICSE-2022-8,13,ICSE2022FL/ICSE2022FLCode
+263,ICSE-2022-41,13,BlackJocker1995/uavga
+264,ASE-2020-81,13,SerVal-DTF/DL4PatchCorrectness
+265,ISSTA-2019-34,13,ashgeek/Ethracer
+266,ISSTA-2020-17,13,uiuc-arc/flash
+267,ISSTA-2022-2,13,ljiahao/TeLL
+268,ISSTA-2022-55,13,yuntongzhang/vulnfix
+269,FSE-2019-15,13,matteobiagiola/FSE19-submission-material-DIG
+270,FSE-2020-10,13,vaibhavbsharma/java-ranger
+271,ICSE-2020-117,13,kelloggm/object-construction-checker
+272,ASE-2022-52,13,sharedata21/HTFuzz
+273,ASE-2022-91,13,SophieHYe/SelfAPR
+274,ICSE-2018-0,12,justinwm/CapGen
+275,ICSE-2018-26,12,icse18-fast/FAST
+276,ICSE-2018-122,12,verivital/slsf_randgen
+277,ICSE-2020-50,12,SerVal-DTF/APR-Efficiency
+278,ICSE-2020-77,12,pxzhang94/ADF
+279,ICSE-2021-64,12,s3team/Abacus
+280,FSE-2017-77,12,marko-vasic/ekstaziSharp
+281,ICSE-2022-24,12,hub-se/BeDivFuzz
+282,ICSE-2022-38,12,GIST-NJU/RestCT
+283,ICSE-2022-49,12,DeepDiagnosis/ICSE2022
+284,ICSE-2022-50,12,ArabelaTso/DeepFD
+285,ASE-2021-74,12,Feri73/deep-gui
+286,ISSTA-2021-35,12,ucd-plse/PyDFix
+287,FSE-2018-30,12,FoelliX/ReproDroid
+288,FSE-2019-9,12,jku-ssw/gcc-builtin-study
+289,FSE-2019-25,12,SoftLegend/AC3R-Demo
+290,FSE-2020-72,12,testingautomated-usi/DeepJanus
+291,FSE-2021-56,12,Jacob-yen/GRIST
+292,FSE-2021-84,12,sumonbis/FairPreprocessing
+293,FSE-2022-19,12,jodavimehran/code-tracker
+294,ASE-2022-29,12,malusamayo/leakage-analysis
+295,ASE-2022-53,12,quentinLeDilavrec/HyperAST
+296,ASE-2022-56,12,EngineeringSoftware/inlinetest
+297,ICSE-2017-63,11,Bocete/adsl
+298,ICSE-2019-106,11,nandor/mkcheck
+299,ICSE-2021-131,11,PYART0/PyART
+300,ICSE-2022-35,11,wssun/TranCS
+301,ICSE-2022-98,11,zysszy/CAT
+302,ICSE-2022-126,11,kupl/npex
+303,ICSE-2022-128,11,Xuhpclab/jxperf
+304,ICSE-2022-156,11,RoPGen/RoPGen
+305,ASE-2018-31,11,sola-da/StaticBugCheckers
+306,ISSTA-2018-20,11,blaeser/parallelchecker
+307,ISSTA-2019-19,11,mkechagia/Catcher
+308,ISSTA-2022-39,11,AIasd/FusED
+309,ISSTA-2022-44,11,dafny-lang/xdsmith
+310,FSE-2017-4,11,rutgers-apl/TaskProf
+311,FSE-2020-21,11,Alan-Cha/graphql-complexity-paper-artifact
+312,FSE-2021-113,11,MHunt-er/Benchmarking-Malware-Family-Classification
+313,FSE-2021-40,11,joymallyac/Fair-SMOTE
+314,FSE-2021-59,11,yilinglou/Grace
+315,FSE-2021-72,11,kusumotolab/NIL
+316,ICSE-2018-13,10,shuiblue/INFOX
+317,ICSE-2018-128,10,ai-se/Smote_tune
+318,ICSE-2019-25,10,AishwaryaSivaraman/ALICE-ILP-for-Code-Search
+319,ICSE-2019-94,10,DeepPerf/DeepPerf
+320,ICSE-2020-0,10,icse20/RT-CI
+321,ICSE-2020-17,10,DynamicCodeSearch/SLACC
+322,ICSE-2020-91,10,ARiSE-Lab/DeepInspect
+323,ICSE-2021-30,10,self-checker/SelfChecker
+324,ICSE-2022-27,10,wangdeze18/DACL
+325,ICSE-2022-34,10,Moshiii/CLEAR-replication
+326,ICSE-2022-40,10,nju-websoft/PyCRE
+327,ICSE-2022-191,10,baolingfeng/V-SZZ
+328,ASE-2018-10,10,metaborg/spoofax-pie
+329,ASE-2018-12,10,sakshiudeshi/Aequitas
+330,ASE-2019-14,10,ReMine-Lab/RRGen
+331,ASE-2020-34,10,20200501/OwlEye
+332,ISSTA-2017-26,10,wangbo15/accmut
+333,ISSTA-2019-29,10,thomasdeanwhite/GUIdance
+334,ISSTA-2022-58,10,DependableSystemsLab/eTainter
+335,FSE-2017-41,10,too4words/Call-Graph-Builder-DotNet
+336,FSE-2018-13,10,silverbullettt/scaler
+337,FSE-2020-66,10,Practical-Formal-Methods/DeepSearch
+338,FSE-2021-23,10,beyondacm/TDClearner
+339,FSE-2021-50,10,Troublor/darcher
+340,FSE-2022-27,10,HaoxianChen/declarative-smart-contracts
+341,ASE-2022-59,10,SpringJasmine/Jasmine
+342,ASE-2022-70,10,ShenQingchao/QAQA
+343,ASE-2022-106,10,DehengYang/TransplantFix
+344,ICSE-2017-41,9,rohanpadhye/travioli
+345,ICSE-2019-16,9,LASER-UMASS/Swami
+346,ICSE-2019-85,9,hyperloop-rails/panorama-static-analyzer
+347,ICSE-2020-19,9,parasol-aser/XRust
+348,ICSE-2021-23,9,gbftdlie/Graph-based-fuzz-testing
+349,ICSE-2022-67,9,lin-tan/eagle
+350,ICSE-2022-77,9,Antimony5292/FairNeuron
+351,ASE-2017-24,9,sch8906/intAbs
+352,ASE-2017-48,9,atlanmod/Mogwai
+353,ASE-2019-0,9,code2vec-critique/generalizability
+354,ASE-2019-26,9,JunjieChen/HiCOND
+355,ASE-2021-57,9,wjy99-c/QDiff
+356,ISSTA-2017-3,9,wyaneva/ParTeCL-CodeGen
+357,ISSTA-2019-23,9,Practical-Formal-Methods/adiff
+358,ISSTA-2020-38,9,monkbai/DecFuzzer
+359,ISSTA-2021-9,9,LingfengZhang98/EIDIG
+360,ISSTA-2022-54,9,2022CIRCLE/CIRCLE
+361,FSE-2018-45,9,saltlab/vista
+362,FSE-2018-51,9,uiuc-arc/probfuzz
+363,FSE-2019-31,9,justinwm/InduceBenchmark
+364,FSE-2019-46,9,Lizenan1995/DNNOpAcc
+365,FSE-2021-43,9,fio1982/GRec
+366,FSE-2021-48,9,FSEwork/SCWarn
+367,FSE-2021-76,9,Amocy-Wang/ProbDD
+368,FSE-2022-10,9,Intelligent-CAT-Lab/SEER
+369,FSE-2022-78,9,kupl/PyTER
+370,ICSE-2020-15,8,NDStudyICSE2019/NDStudy
+371,ICSE-2020-28,8,deepbillboard/DeepBillboard
+372,ICSE-2020-79,8,zysszy/TransRepair
+373,ICSE-2021-18,8,swa112003/DistributionAwareDNNTesting
+374,ICSE-2021-107,8,gabrielcsf/malicious-updates-icse2021
+375,ICSE-2021-126,8,AlshammariA/FlakeFlagger
+376,ICSE-2022-87,8,sidongfeng/gifdroid
+377,ICSE-2022-160,8,less-lab-uva/perception_fuzzing
+378,ASE-2017-66,8,qixin5/ssFix
+379,ASE-2019-28,8,umairzahmed/tegcer
+380,ASE-2020-8,8,haoyang9804/RecBi
+381,ASE-2020-73,8,anyone546/OCoR
+382,ASE-2021-10,8,imcsq/ASE21-QAAskeR
+383,ASE-2021-47,8,Marsman1996/instruguard
+384,ISSTA-2017-20,8,qixin5/DiffTGen
+385,ISSTA-2022-16,8,CUHK-ARISE/AEON
+386,ISSTA-2022-24,8,tcse-iscas/Grand
+387,FSE-2017-7,8,WeiFoo/EasyOverHard
+388,FSE-2018-3,8,midwinter1993/Schnauzer
+389,FSE-2019-69,8,MCFuzzer/MCFuzz
+390,FSE-2020-12,8,kupl/HOMI_public
+391,FSE-2020-54,8,joymallyac/Fairway
+392,FSE-2021-14,8,fmehralian/COALA
+393,FSE-2022-21,8,sola-st/PythonTypeAnnotationStudy
+394,ICSE-2020-27,7,shafiul/slemi
+395,ICSE-2020-40,7,heterorefactor/heterorefactor
+396,ICSE-2020-46,7,COLA-Laboratory/icse2020
+397,ICSE-2021-22,7,dlshriver/DNNF
+398,ICSE-2021-32,7,sail-repos/PRIMA
+399,ICSE-2021-74,7,GIST-NJU/KEFE
+400,ICSE-2021-96,7,BOCA313/BOCA
+401,ICSE-2022-15,7,YintongHuo/ARCLIN
+402,ICSE-2022-89,7,ForAllSecure/GraphFuzz
+403,ICSE-2022-105,7,system-pclub/rust-programming-challenges
+404,ASE-2017-68,7,yangyixiaof/CodeCompletionPlugin
+405,ASE-2019-16,7,havrikov/covering-input-structure
+406,ASE-2019-43,7,xgdsmileboy/StateCoverLocator
+407,ASE-2020-24,7,ARiSE-Lab/Patch-as-translation
+408,ASE-2020-35,7,actionabletest/MCP
+409,ASE-2020-42,7,dgl-prc/rnn2automata
+410,ASE-2021-71,7,MattePalte/thinking-like-a-developer
+411,ISSTA-2020-11,7,datalossdetector/DLD
+412,ISSTA-2021-6,7,dlfaults/deepcrime
+413,ISSTA-2021-7,7,testingautomated-usi/DeepHyperion
+414,ISSTA-2021-27,7,Artisan-Lab/SMTimer
+415,ISSTA-2021-32,7,predoodl/predoo
+416,ISSTA-2022-48,7,iFixDataLoss/iFixDataloss22
+417,ISSTA-2022-52,7,ali-ghanbari/shibboleth
+418,FSE-2019-64,7,mryancai/ConVul
+419,FSE-2019-68,7,ZhouyangJia/SafeExit
+420,FSE-2021-31,7,githubhuyang/achyb
+421,FSE-2021-32,7,kupl/LearnML
+422,FSE-2021-35,7,AndroidFlakyTest/FlakeScanner
+423,FSE-2021-44,7,hehao98/LibraryMigration
+424,FSE-2021-87,7,castor-software/longitudinal-bloat
+425,FSE-2021-93,7,GLIB-game/GLIB
+426,FSE-2022-14,7,brains-on-code/NoviceVsExpert
+427,FSE-2022-62,7,G2SMM/G2SC
+428,FSE-2022-94,7,chenzhenpeng18/FSE22-MAAT
+429,ASE-2022-13,7,ase-decom/ASE22_DECOM
+430,ASE-2022-58,7,Trustworthy-Software/Quatrain
+431,ICSE-2018-23,6,stan6/droixbench
+432,ICSE-2020-23,6,gmu-swe/rivulet
+433,ICSE-2021-42,6,brains-on-code/fMRI-complexity-metrics-icse2021
+434,ICSE-2022-10,6,SATE-Lab/ATS
+435,ICSE-2022-11,6,SunflowerPKU/ICSE22_SC_Data
+436,ICSE-2022-73,6,waving7799/ExpGA
+437,ICSE-2022-80,6,toledosakasa/SMARTFL
+438,ICSE-2022-125,6,haibinzheng/NeuronFair
+439,ICSE-2022-144,6,promal-android/Promal
+440,ICSE-2022-180,6,fairnesstest/LTDD
+441,ICSE-2022-185,6,antonio-mastropaolo/LANCE
+442,ASE-2018-37,6,liuhuigmail/FeatureEnvy
+443,ASE-2018-61,6,ChunghaSung/EC-Diff
+444,ASE-2020-13,6,Osiris-Jupyter/Osiris
+445,ASE-2020-28,6,seal-hub/ERCatcher
+446,ASE-2020-64,6,lin-tan/dl-variance
+447,ASE-2020-68,6,SCDetector/SCDetector
+448,ASE-2020-91,6,hub-se/MoFuzz
+449,ISSTA-2022-18,6,cure-lab/HybridRepair
+450,FSE-2018-27,6,yangzhangs/cd_replication
+451,FSE-2018-46,6,XujieSi/fse18-artifact-183
+452,FSE-2019-22,6,JunjieChen/DiWi
+453,FSE-2019-28,6,maligulzar/BigTest
+454,FSE-2019-41,6,SBULeeLab/LinguaFranca-FSE19
+455,FSE-2019-63,6,kabinja/fse2019
+456,FSE-2020-78,6,pangeneral/AsyncChecker
+457,FSE-2021-65,6,ShangwenWang/Cognac
+458,FSE-2021-70,6,PrivacyStreams/TaintStream
+459,FSE-2021-94,6,devjeetr/Re-assessing-automatic-evaluation-metrics-for-source-code-summarization-tasks
+460,FSE-2021-99,6,ethanluoyc/sympais
+461,FSE-2022-20,6,VariantSync/DiffDetective
+462,FSE-2022-22,6,Commit-Untangling/commit-untangling
+463,FSE-2022-58,6,jacknichao/JIT-Fine
+464,ICSE-2020-109,6,PPPI/POSIT
+465,ICSE-2020-122,6,gzoumix/pdepa
+466,ASE-2022-7,6,TechSumBot/TechSumBot
+467,ASE-2022-16,6,imcsq/ASE22-MPPrioritize
+468,ASE-2022-33,6,CGCL-codes/Amain
+469,ASE-2022-46,6,IntelligentDDS/GIED
+470,ASE-2022-82,6,toolstemp/IAcontract
+471,ASE-2022-108,6,CGCL-codes/TreeCen
+472,ICSE-2018-62,5,CMUSTRUDEL/npm-badges
+473,ICSE-2019-24,5,zlfben/autotap
+474,ICSE-2020-20,5,ananevans/icse2020
+475,ICSE-2020-101,5,mpi-sv/mpi-sv-src
+476,ICSE-2020-102,5,ucd-plse/FPGen
+477,ICSE-2020-104,5,DehaiZhao/Seenomaly
+478,ICSE-2021-77,5,ncoop57/tango
+479,ICSE-2022-17,5,yh1105/Artifact-of-Assertion-ICSE22
+480,ICSE-2022-23,5,awsm-research/AutoTransform-Replication
+481,ICSE-2022-137,5,jhe16/PerfSig
+482,ASE-2017-10,5,normative-team/normative
+483,ASE-2017-33,5,gongbell/SimplyDroid
+484,ASE-2018-6,5,sselab/autoconfig
+485,ASE-2018-54,5,kaiyuanw/ARepair
+486,ASE-2020-14,5,se2p/bastet
+487,ASE-2020-48,5,COLA-Laboratory/ase2020
+488,ASE-2020-79,5,sola-st/string-bugs
+489,ASE-2021-12,5,rbavishi/vizsmith-demo
+490,ASE-2021-25,5,ucd-plse/Static-Bug-Detectors-ASE-Artifact
+491,ASE-2021-52,5,transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract
+492,ASE-2021-62,5,ase-test-migration/test-migration
+493,ASE-2021-73,5,cuhk-seclab/mdperffuzz
+494,ISSTA-2017-22,5,sonalmahajan/xfix
+495,ISSTA-2018-11,5,verml/VerifyML
+496,ISSTA-2019-28,5,uds-se/droidmate-bandits
+497,ISSTA-2020-1,5,yuqiChen94/Active_fuzzer
+498,ISSTA-2020-19,5,vrthra/ddset
+499,ISSTA-2021-2,5,webevoexp/webevo
+500,ISSTA-2021-18,5,CGCL-codes/HomDroid
+501,ISSTA-2022-47,5,wsong-nj/PermDroid
+502,FSE-2017-26,5,se-passau/thor-avm
+503,FSE-2018-4,5,umangm/ziptrack
+504,FSE-2019-5,5,SNTSVV/SOCRaTEs
+505,FSE-2019-43,5,ucd-plse/eesi
+506,FSE-2020-122,5,af-static-toolchains/aliflow-micro-benchmark
+507,FSE-2020-1,5,resess/ARDiff
+508,FSE-2020-33,5,SunflowerPKU/FSE20Dataset
+509,FSE-2020-83,5,FudanSELab/Research-FSE2020-FuncVerb
+510,FSE-2021-22,5,DynamicCodeSearch/COSAL
+511,FSE-2021-86,5,pmbittner/FeatureTraceRecording
+512,FSE-2022-32,5,sea-lab-wm/burt
+513,FSE-2022-61,5,VPRLab/BlkVulnDataset
+514,FSE-2022-99,5,chuanluocs/SamplingCA
+515,ICSE-2022-2,5,LASER-UMASS/Diva
+516,ASE-2022-75,5,seclab-fudan/AFV
+517,ASE-2022-86,5,obicons/sa4u
+518,ASE-2022-101,5,tsigalko18/ase22
+519,ICSE-2021-28,4,dessertlab/DeepEST
+520,ICSE-2021-112,4,Trustworthy-Software/RAICC
+521,ICSE-2021-137,4,sjmini/justgen
+522,ICSE-2022-33,4,tao2years/WeBug
+523,ICSE-2022-53,4,JieHE-2020/DeepSTL
+524,ICSE-2022-59,4,DescribeCTX/DescribeCTX
+525,ICSE-2022-60,4,soarsmu/SA_retrospective
+526,ICSE-2022-76,4,Tizpaz/Parfait-ML
+527,ICSE-2022-121,4,sola-st/Nalin
+528,ICSE-2022-136,4,truzz-fuzz/truzz-fuzz
+529,ICSE-2022-141,4,yiyuaner/ICSE-2022-Wit-data
+530,ASE-2017-51,4,pooyanjamshidi/ase17
+531,ASE-2017-87,4,sherfert/GTR
+532,ASE-2018-7,4,sola-da/TSFinder
+533,ASE-2018-55,4,PFixConcurrency/Fix
+534,ASE-2019-41,4,v2-project/v2
+535,ASE-2019-51,4,Method-Name-Recommendation/HeMa
+536,ASE-2020-58,4,lkyin/tool_adoptions
+537,ASE-2020-87,4,MetaOD/MetaOD
+538,ASE-2021-36,4,OpsPAI/grlia
+539,ASE-2021-42,4,moonZHH/PSGen
+540,ASE-2021-70,4,panshengyi/F2Chat
+541,ISSTA-2020-39,4,ucd-plse/FPDiff
+542,ISSTA-2022-4,4,Practical-Formal-Methods/pi-fuzz
+543,ISSTA-2022-17,4,charakageethal/grammar2fix
+544,ISSTA-2022-22,4,soarsmu/transfer
+545,ISSTA-2022-31,4,TensileFuzz/TensileFuzz
+546,FSE-2018-5,4,cs-au-dk/ajaxracer
+547,FSE-2018-58,4,JunjieChen/PTP
+548,FSE-2019-23,4,kupl/Chameleon
+549,FSE-2019-26,4,Prefest2018/Prefest
+550,FSE-2021-106,4,uber-research/go-context-propagate
+551,FSE-2020-67,4,SeekingDream/denas_fse2020
+552,FSE-2021-12,4,VET-UI-Testing/main
+553,FSE-2021-53,4,imcsq/FSE21-MT4MRC
+554,FSE-2021-55,4,rutgers-apl/PFPSanitizer
+555,FSE-2021-101,4,davidtr1037/klee-symsize
+556,FSE-2022-57,4,fixlocatorresearch/fixlocatorresearch
+557,FSE-2022-71,4,panshengyi/MemVul
+558,FSE-2022-91,4,jiangyanjie/RevisitingNaturalness
+559,FSE-2022-96,4,SeekingDream/NMTSloth
+560,ASE-2022-18,4,ariannab/callmemaybe
+561,ASE-2022-87,4,JiePKU/MIA-SafeCompress
+562,ASE-2022-98,4,qixin5/debloating_study
+563,ASE-2022-112,4,Yuanyuan-Yuan/Decision-Oracle
+564,ICSE-2017-7,3,ponder-lab/Migrate-Skeletal-Implementation-to-Interface-Refactoring
+565,ICSE-2018-25,3,saltlab/Testler
+566,ICSE-2018-95,3,saltlab/sabalan
+567,ICSE-2019-46,3,mileschen360/Higgs
+568,ICSE-2019-75,3,FICIssuePivot/Pivot
+569,ICSE-2020-2,3,AUEB-BALab/fsmove
+570,ICSE-2020-30,3,SNTSVV/ARIsTEO
+571,ICSE-2020-38,3,skull591/ComboDroid-Artifact
+572,ICSE-2020-52,3,FRMiner/FRMiner
+573,ICSE-2021-7,3,ZhouyangJia/DepOwl
+574,ICSE-2021-62,3,NAIST-SE/MetaMaintenancePotential
+575,ICSE-2021-75,3,UBCFinder/UBCFinder
+576,ICSE-2021-90,3,lingming/UniAPR
+577,ICSE-2021-117,3,SPEAR-SE/ICSE2021_Log_Level_Data
+578,ICSE-2022-62,3,Trustworthy-Software/Difuzer
+579,ICSE-2022-82,3,serval-uni-lu/flakime
+580,ICSE-2022-94,3,JavaTailor/CFSynthesis
+581,ICSE-2022-177,3,ubisoft/ubisoft-laforge-brownbuild
+582,ICSE-2022-178,3,CAS-LRJ/DeepPAC
+583,ICSE-2022-179,3,nemo9cby/ICSE2022Rep
+584,ICSE-2022-197,3,MeloFancy/SIRA
+585,ASE-2017-7,3,lucadt/testminer
+586,ASE-2017-74,3,UTSASRG/UnDead
+587,ASE-2017-80,3,spencerxiao/ase2017-results-and-tools
+588,ASE-2018-39,3,kupl/ConTest
+589,ASE-2020-12,3,SunghoLee/c-summary
+590,ASE-2020-15,3,x-y-zhao/iCPD
+591,ASE-2020-25,3,devjeetr/DeepTC-Enhancer-Improving-the-Readability-of-Automatically-Generated-Tests
+592,ASE-2020-31,3,SPEAR-SE/ASE2020_Logging_Location_Data
+593,ASE-2020-38,3,SBST-DPG/sbst-dpg
+594,ASE-2020-45,3,hanseychen/CoFI
+595,ASE-2020-50,3,tum-i22/CIS-Benchmark-Evaluation
+596,ASE-2020-69,3,FudanSELab/Research-ASE2020-APIComp
+597,ASE-2021-7,3,CGCL-codes/LambdaMisuse
+598,ASE-2021-9,3,EngineeringSoftware/wayout
+599,ASE-2021-13,3,jzySaber1996/ISPY
+600,ASE-2021-26,3,malusamayo/notebooks-analysis
+601,ASE-2021-53,3,RemilYoucef/sd-4sql
+602,ASE-2021-69,3,gerasimou/MDPSynthesis
+603,ISSTA-2017-13,3,BUseclab/hush
+604,ISSTA-2021-22,3,USC-SQL/SAND
+605,ISSTA-2022-11,3,testingautomated-usi/simple-tip
+606,ISSTA-2022-38,3,meng2180/LiRTest
+607,ISSTA-2022-56,3,wasai-project/wasai
+608,FSE-2017-5,3,minghuizhou/maintainerAnalysis
+609,FSE-2017-25,3,ai-se/Reimplement
+610,FSE-2019-80,3,ai-se/Data-for-automated-UI-testing-from-LexisNexis
+611,FSE-2018-17,3,dnnmode/buggymodels
+612,FSE-2019-7,3,paulgazz/kconfig_case_studies
+613,FSE-2019-34,3,wsong-nj/ServDroid
+614,FSE-2019-61,3,SoftwareDesignLab/AchillesHeel
+615,FSE-2020-0,3,SteveZhangBit/LTSA-Robust
+616,FSE-2020-19,3,dlocator-dev/dlocator
+617,FSE-2020-91,3,meelgroup/baital
+618,FSE-2020-95,3,poosomooso/SSHOM-Search
+619,FSE-2020-97,3,felicitia/FrUITeR
+620,FSE-2021-36,3,Symbolk/SmartCommitEvaluation-Viz
+621,FSE-2021-37,3,LiveChat2021/LiveChat#5-download
+622,FSE-2021-39,3,WenJinfeng/FSE21-Dataset_Script
+623,FSE-2021-82,3,fzlinshu/SoGen
+624,FSE-2021-92,3,chuanluocs/LS-Sampling
+625,FSE-2022-131,3,ArchitecturePractices/lsr_survey_artifacts
+626,FSE-2022-11,3,ITSEG-MQ/STRAP
+627,FSE-2022-47,3,lcynju/review2code
+628,FSE-2022-60,3,idiomaticrefactoring/pythonidiomsrefactor
+629,FSE-2022-101,3,wenxiwang/SymMC-Tool
+630,ASE-2022-51,3,anonymized-datascientist/Leveraging-Change-Information
+631,ASE-2022-73,3,qibinhang/CNNSplitter
+632,ICSE-2017-33,2,njuap/ICSE2017
+633,ICSE-2017-44,2,cwi-swat/static-analysis-reflection
+634,ICSE-2017-61,2,JunjieChen/let
+635,ICSE-2018-17,2,USC-SQL/mfix
+636,ICSE-2018-50,2,wtchoi/swifthand2
+637,ICSE-2018-89,2,KristopherBorn/multiCDA
+638,ICSE-2019-49,2,skillwind/RIDDLE
+639,ICSE-2019-77,2,iris-42/CTRAS
+640,ICSE-2019-82,2,VHellendoorn/Completion-Artifact
+641,ICSE-2020-22,2,kupl/SAVER_public
+642,ICSE-2020-80,2,trader-rnn/TRADER
+643,ICSE-2021-47,2,KSU-SDML/Method-Naming-Standards-Artifact
+644,ICSE-2021-66,2,wsong-nj/IMGDroid
+645,ICSE-2021-68,2,SNTSVV/ThEodorE
+646,ICSE-2021-70,2,ISRD2020/ISRD
+647,ICSE-2021-128,2,dynaroars/gentree
+648,ICSE-2022-118,2,TimHe95/SafeTune
+649,ICSE-2022-139,2,xing-hu/Practitioners-Expectations-on-Automated-Code-Comment-Generation
+650,ICSE-2022-148,2,vlab-cs-ucsb/quacky
+651,ICSE-2022-161,2,nengz/ShellFusion
+652,ICSE-2022-187,2,RosaliaTufano/rlgameauthors
+653,ASE-2017-22,2,elaghs/Working
+654,ASE-2017-43,2,wangpeipei90/RegexSmells
+655,ASE-2018-58,2,NTU-ALComLab/SLENT
+656,ASE-2019-6,2,DaPANDA2019/DaPANDA
+657,ASE-2019-40,2,anon4review/ACTGAN
+658,ASE-2019-57,2,senseconcordia/ASE2019Data
+659,ASE-2019-64,2,aucs2019/AuCS
+660,ASE-2019-86,2,spgroup/s3m
+661,ASE-2020-4,2,zhangj111/nexgen
+662,ASE-2020-29,2,DEMAR-requirements/DEMAR
+663,ASE-2020-52,2,TimHe95/CP-Detector
+664,ASE-2020-89,2,seal-hub/ASE20Empirical
+665,ASE-2021-2,2,xing-hu/SmartDoc
+666,ASE-2021-17,2,SuYanqi/LR-BKG
+667,ASE-2021-22,2,MDEGroup/APIRecSys-AML
+668,ASE-2021-32,2,winmutase21/WinMutASE21Artifact
+669,ASE-2021-33,2,SE-Efforts/SE_SSL
+670,ASE-2021-45,2,pasqualesalza/apization
+671,ASE-2021-51,2,thousfeet/Functionality-generalization
+672,ASE-2021-66,2,decentL/iFIZZ-ASE21
+673,ISSTA-2019-11,2,winglam/RootFinder
+674,ISSTA-2021-10,2,cicilzx/DialTest
+675,ISSTA-2021-16,2,SEG-DENSE/Guider
+676,ISSTA-2021-33,2,uiuc-arc/tera
+677,ISSTA-2021-38,2,ConfEIT-code/CeitInspector
+678,ISSTA-2022-1,2,agb94/FDG-artifact
+679,ISSTA-2022-51,2,SEG-DENSE/VALA
+680,FSE-2017-39,2,moji1/MDebugger
+681,FSE-2017-72,2,FAU-Inf2/ARES
+682,FSE-2019-16,2,matteobiagiola/FSE19-submission-material-TEDD
+683,FSE-2019-53,2,software-rebels/ReviewLinkageGraph
+684,FSE-2020-28,2,AI-4-SE/Dimensions-of-Software-Configuration
+685,FSE-2020-44,2,EngineeringSoftware/hdlp
+686,FSE-2020-74,2,Lizn-zn/Op-QA
+687,FSE-2020-90,2,SinkFinder/data
+688,FSE-2021-41,2,UH-SERG/SIVAND
+689,FSE-2021-52,2,jiangyanjie/smartExpander
+690,FSE-2021-64,2,y-ding/gil
+691,FSE-2021-85,2,maxhort/Fairea
+692,FSE-2021-96,2,kaist-plrg/safe-ds
+693,FSE-2022-75,2,tjark/Par
+694,FSE-2022-86,2,kaist-plrg/jsaver
+695,FSE-2022-98,2,wssun/RULER
+696,ICSE-2020-124,2,wangjunjieISCAS/InProcessRecommendation
+697,ICSE-2020-36,2,shuiblue/ICSE20-hardfork-appendix
+698,ASE-2022-30,2,SeekingDream/DeepPerform
+699,ASE-2022-40,2,rishabh-ranjan/simian
+700,ASE-2022-67,2,pkuserc/MPCos_ASE2022
+701,ASE-2022-84,2,yanxiao6/InputReflector
+702,ASE-2022-102,2,seal-hub/Oversight
+703,ASE-2022-113,2,huiAlex/TAROT
+704,ICSE-2018-142,1,cuplv/droidstar
+705,ICSE-2019-55,1,yinliangze/yogar-cbmc-parallel
+706,ICSE-2019-95,1,shaifulcse/GreenBundle-Data-Code
+707,ICSE-2020-90,1,dlfaults/dl_faults
+708,ICSE-2020-98,1,CMUSTRUDEL/oss-donations
+709,ICSE-2020-107,1,Abdulaziz89/accessibility_eval
+710,ASE-2018-77,1,njaliu/sgram-artifact
+711,ICSE-2021-3,1,t-rasmud/checker-framework
+712,ICSE-2021-16,1,chuanluocs/AutoCCAG
+713,ICSE-2021-31,1,Testing-Multiple-DL-Models/SDS
+714,ICSE-2021-86,1,miguelvelezmj25/icse21-sm
+715,ICSE-2021-105,1,SUNY-BU-Software-Systems-Research-Group/PaparazziBF
+716,ICSE-2022-28,1,BugListener/BugListener2022
+717,ICSE-2022-30,1,dubslaff/FeatCause
+718,ICSE-2022-52,1,SATE-Lab/DeepState
+719,ICSE-2022-159,1,YiXiangScut/NSbS
+720,ICSE-2022-168,1,skkusal/symtuner
+721,ICSE-2022-175,1,xingzhang-pku/BidirectionalPreview
+722,ASE-2017-28,1,SunghoLee/AIDetector
+723,ASE-2017-41,1,sulir/runtimesearch
+724,FSE-2017-87,1,jairud-garcia/rails-model-extractor
+725,ASE-2018-21,1,vovak/branches
+726,ASE-2018-52,1,felicitia/PALOMA-Analysis
+727,ASE-2018-64,1,AndroidMist/Mist
+728,ASE-2018-70,1,mikacashman/ASE18SupResources
+729,ASE-2019-60,1,glnmzx888/class-overlap
+730,ASE-2019-62,1,MAPCoverage/Map-Coverage
+731,ASE-2019-80,1,jyothivedurada/BatchAnalyzer
+732,ASE-2020-26,1,sea-lab/hybrid-net
+733,ASE-2020-27,1,skdebray/ASE-2020
+734,ASE-2020-63,1,jinwuxia/ASE2020data
+735,ASE-2020-67,1,zhiyuan-wan/ASE_2020_predicting_code_context
+736,ASE-2020-75,1,ProdigyXable/UnifiedDebuggingStudy
+737,ASE-2020-90,1,cps-sei/cps-synth-resolultion
+738,ASE-2021-40,1,tcse-iscas/nrace
+739,ASE-2021-46,1,noisysilence-max/Failure-Inducing-Input-Generation
+740,ISSTA-2018-21,1,fikovnik/ISSTA18-Artifact
+741,ISSTA-2018-28,1,USC-SQL/RAT-TRAP
+742,ISSTA-2020-10,1,sakura182/Maca
+743,ISSTA-2020-16,1,arnabsharma91/MonotonicityChecker
+744,ISSTA-2022-53,1,guolong-zheng/atmprep
+745,FSE-2017-9,1,WeiFoo/RevisitUnsupervised
+746,FSE-2017-15,1,brains-on-code/paper-esec-fse-2017
+747,FSE-2017-28,1,AlexanderKnueppel/is-there-a-mismatch
+748,FSE-2017-33,1,karthikp-ubc/Artinali
+749,FSE-2017-49,1,vlab-cs-ucsb/cashew
+750,FSE-2017-71,1,PythonLAMP/LAMP
+751,FSE-2017-74,1,rtholmes/RealTestFailures
+752,FSE-2018-24,1,FraudDroid-mobile-ad-fraud/ExperimentResults
+753,FSE-2018-28,1,fayekia/FSE_2018
+754,FSE-2018-60,1,PAMSE/PAFAnalysis
+755,FSE-2018-62,1,pl-aeneas/aeneas
+756,FSE-2019-14,1,4DataShare/AbbExpansion
+757,FSE-2019-17,1,se2p/artifact-esecfse2019
+758,FSE-2019-24,1,seepep/promocalls
+759,FSE-2020-113,1,fengjincao/AeroReqDemoForFSE
+760,FSE-2021-110,1,manual-testing-study/manual-testing-esec-fse-21
+761,FSE-2020-2,1,C2S-FSE/C2S
+762,FSE-2020-39,1,bhermann/artifact-survey
+763,FSE-2020-42,1,CMUSTRUDEL/badge_diffusion_supplementary
+764,FSE-2020-63,1,josepablocam/ams
+765,FSE-2020-81,1,sealuzh/jmh
+766,FSE-2020-82,1,ManCla/ESEC-FSE-2020
+767,FSE-2021-8,1,sav-smu/plc-code-integrity
+768,FSE-2021-19,1,tongyanxiang/MoD2
+769,FSE-2021-42,1,taochen/mmo-fse-2021
+770,FSE-2021-46,1,d-fact/gumtree
+771,FSE-2021-47,1,SPEAR-SE/FSE2021_DPLOG
+772,FSE-2021-49,1,wx930910/JMocker
+773,FSE-2021-54,1,uiuc-arc/flex
+774,FSE-2021-58,1,MangoTeam/mockdown
+775,FSE-2021-60,1,HALOCORE/SynGuar
+776,FSE-2022-26,1,MEPalma/HLNN-ReplicationPackage
+777,FSE-2022-56,1,KadjelRamkisoen/PaReco
+778,FSE-2022-63,1,DavidMOBrien/23Shades
+779,ICSE-2020-126,1,qWe1aSd/malPre
+780,ASE-2022-48,1,seal-hub/Groundhog
+781,ASE-2022-68,1,MalTools/MalWhiteout
+782,ASE-2022-79,1,FormalAIze/NeWise
+783,ASE-2022-110,1,yangzhangs/ase2022-UPDBD
+784,ICSE-2017-25,0,cs-au-dk/EventRaceCommander
+785,ICSE-2017-57,0,aperez/evosuite
+786,ICSE-2018-22,0,felicitia/PALOMA
+787,ICSE-2018-29,0,igorsteinmacher/ICSE_QuasiContributors
+788,ICSE-2018-126,0,jmguo/balanceValidity
+789,ICSE-2018-127,0,jwlin/Nemo
+790,ICSE-2018-135,0,JurajKubelka/ExploratoryStudyInPharo
+791,ICSE-2019-3,0,CESEL/CodeEntropyReplication
+792,ICSE-2019-45,0,anonymousICSE2019/patchcorrectness
+793,ICSE-2019-50,0,cuidi34/ICSE19-Data
+794,ICSE-2019-72,0,rheradio/VMStatAnal
+795,ICSE-2019-78,0,wangjunjieISCAS/CM
+796,ICSE-2019-93,0,se-passau/Distance-Based_Data
+797,ICSE-2019-105,0,SAREC-Lab/SAFA-Artifacts
+798,ICSE-2020-18,0,yirugi/JSFlowTamper
+799,ICSE-2020-48,0,USI-INF-Software/Conf-ReplicationPackage-ICSE2020
+800,ICSE-2020-73,0,drzhonghao/parameterstudy
+801,ICSE-2020-74,0,senseconcordia/API-Workarounds
+802,ICSE-2020-75,0,goodchar/public-package-about-Official-API-Usage-Directives-Demysitification-Report
+803,ASE-2018-76,0,yeluting/KaggleDataset
+804,ICSE-2021-5,0,SPEAR-SE/TestAnnotationMaintenance_Data
+805,ICSE-2021-48,0,CelloCorgi/ICSE_fNIRS2021
+806,ICSE-2021-59,0,truelova/ICSE_2021_UpdateNotes
+807,ICSE-2021-67,0,xinwei2124/fPMC_ICSE
+808,ICSE-2021-119,0,SNTSVV/MAANA
+809,ICSE-2021-120,0,pag-iiitd/DocDependency
+810,ICSE-2021-129,0,msbajammal/icse2021
+811,ICSE-2022-7,0,meelgroup/approxcov
+812,ICSE-2022-55,0,zxhree/default
+813,ICSE-2022-75,0,fadatestdbt/fadatest
+814,ICSE-2022-90,0,stefanos1316/ICSE_2022_artifact
+815,ICSE-2022-96,0,nilsmehlhorn/loop-stream-rct
+816,ICSE-2022-113,0,giangnm58/Manas
+817,ICSE-2022-154,0,UT-SE-Research/ODRepair
+818,ASE-2017-29,0,anosubmission/mutaflow-data
+819,ASE-2017-77,0,gustavopinto/fjdetector
+820,ASE-2017-82,0,parsimony-ide/ase2017-extra
+821,ASE-2017-91,0,StevenReiss/seede
+822,ASE-2018-5,0,xha225/PerfLearner
+823,ASE-2018-43,0,Programming-Systems-Lab/Parikshan
+824,FSE-2018-85,0,sei-pku/nestif
+825,ASE-2019-13,0,goodchar/Controversy-summary-of-Stack-Overflow-posts
+826,ASE-2019-17,0,pag-iiitd/Segate
+827,ASE-2019-38,0,BoiseState/string-constraint-counting
+828,ASE-2019-44,0,TarannumZaman/Scminer
+829,ASE-2020-16,0,danieltrt/Distinguisher
+830,ASE-2020-32,0,JunjieChen/DeepIP
+831,ASE-2020-46,0,LavaOps/ChemTest
+832,ASE-2020-51,0,AI-4-SE/Changepoints-Across-Variants-And-Versions
+833,ASE-2020-55,0,EasyRegex/FlashRegex
+834,ASE-2020-83,0,SNTSVV/SB-TemPsy
+835,ASE-2020-84,0,cedricrupb/cst_transform
+836,ASE-2021-16,0,tudo-aqua/paper-reproduction-package-ase2021
+837,ASE-2021-21,0,Chenguang-Zhu/relancer
+838,ASE-2021-28,0,amordahl/satune
+839,ASE-2021-55,0,sen-he/Metior
+840,ASE-2021-58,0,2021-CONFDATA/2021-CONF-DATA
+841,ASE-2021-61,0,mycoderesearch/CDFRecommendation
+842,ASE-2021-75,0,code4papers/ALempirical
+843,ASE-2021-80,0,opalj/CiFi-Benchmark
+844,ISSTA-2018-5,0,seungyeob/issta2018-mosis
+845,ISSTA-2020-28,0,hildebrandt-carl/RobotTestGeneration
+846,ISSTA-2020-29,0,Icysandwich/cachecheck
+847,ISSTA-2020-40,0,ustbsoftlang/issta2020-hpnsp
+848,ISSTA-2021-11,0,AdvDoor/AdvDoor
+849,ISSTA-2021-30,0,gadse-bug/bugs
+850,ISSTA-2021-31,0,clothildejeangoudoux/Magneto
+851,ISSTA-2022-8,0,SOLAR-group/dpevalmeasures
+852,ISSTA-2022-10,0,YANG-Yuting/Epsilon-weakened-Robustness-of-Deep-Neural-Networks
+853,ISSTA-2022-15,0,SATE-Lab/ASRTest
+854,ISSTA-2022-34,0,tcse-iscas/iBugs
+855,FSE-2017-47,0,d-bingham/wildcaughtmutants
+856,FSE-2017-51,0,lpasquale/kEEPER
+857,FSE-2018-8,0,cmu-mars/model-learner
+858,FSE-2018-33,0,parasol-aser/MPC
+859,FSE-2018-41,0,ai-se/FFT_Jack
+860,FSE-2018-54,0,sola-da/DifferentialDebuggerTesting
+861,FSE-2019-52,0,testrepo007/AggrePlay
+862,FSE-2019-58,0,non-conformances-research/fse2019
+863,FSE-2020-9,0,xurongchen/fse20
+864,FSE-2020-13,0,SNTSVV/EPIcuRus
+865,FSE-2020-29,0,niuye8911/rapid_m
+866,FSE-2020-31,0,docable/docable
+867,FSE-2020-32,0,devuxd/RulePad
+868,FSE-2020-80,0,pl-chappie/chappie
+869,FSE-2020-87,0,chbrown13/suggestions
+870,FSE-2020-89,0,UL-SnT-Serval/coeva2
+871,FSE-2021-124,0,mpls-fse/mpls
+872,FSE-2021-11,0,sujon335/AlgebraicDatatypeTaintTracker
+873,FSE-2021-18,0,SteveZhangBit/alloy-maxsat-benchmark
+874,FSE-2021-45,0,FudanSELab/Research-ESEC-FSE2021-APIDirective
+875,FSE-2021-66,0,CelloCorgi/FSE2021_To_Read_or_to_Rotate
+876,FSE-2021-75,0,swarmbug/src
+877,FSE-2021-89,0,boyang9602/FSE_Ignore_Test
+878,FSE-2022-121,0,PackDiff/PackDiff
+879,FSE-2022-126,0,Luckyliue/removed_reviews
+880,FSE-2022-24,0,Fraunhofer-SIT/FSE22-CodeSmells
+881,FSE-2022-38,0,SageSELab/Avgust
+882,FSE-2022-45,0,awsm-research/CommentFinder
+883,FSE-2022-74,0,LeoQ7/DeJITLeak
+884,FSE-2022-77,0,yoavalon/GNNProgramTermination
+885,FSE-2022-80,0,glGarg/DeepDev-PERF
+886,FSE-2022-97,0,czycurefun/testcase_detection
+887,ICSE-2020-116,0,senseuwaterloo/ICSE2020-Performance
+888,ICSE-2020-119,0,winglam/flaky-test-lifecycle-data
+889,ASE-2022-9,0,ExtPPCompliance/PPCompliance
+890,ASE-2022-15,0,AI-EnabledSoftwareEngineering-AISE/B-AIS
+891,ASE-2022-20,0,chenpolong/TLNet
+892,ASE-2022-25,0,SuYanqi/SYS-KG
+893,ASE-2022-34,0,tcse-iscas/DT2
+894,ASE-2022-38,0,HoneyAsclepius/HoneyAsclepius
+895,ASE-2022-60,0,LavaOps/LeakReducer
+896,ASE-2022-81,0,QVIP22/Data
+897,ASE-2022-85,0,RobustTrainer/RobustTrainer
+898,ASE-2022-88,0,davidfa71/Sampling-the-Linux-kernel
+899,ASE-2022-92,0,smartpip/smartpip
+900,ASE-2022-97,0,ksun212/Stray
+901,ASE-2022-115,0,drhaozhong/thex

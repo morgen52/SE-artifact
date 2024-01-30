@@ -8,7 +8,7 @@ class DblpCsvWriter:
         self.file = open(filename, "w")
     
     def write_row(self, data: list):
-        self.file.write("\t".join(data) + "\n")
+        self.file.write(",".join(data) + "\n")
 
     def dump_papers(self, papers: list[DblpPaperRecord]):
         self.write_row(
