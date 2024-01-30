@@ -29,6 +29,8 @@ This repository contains the scripts, data, and results for our paper *Research 
 
 ```bash
 cd SE-artifact
+conda create -n se-artifact python=3.10
+conda activate se-artifact
 pip install -r requirements.txt
 ```
 
