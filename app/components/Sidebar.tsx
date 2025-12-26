@@ -37,14 +37,14 @@ const Sidebar: React.FC<SidebarProps> = ({ areas, selectedVenues, paperCounts, o
         />
       ))}
       <p>
-        <a href="/original_papers.json" download style={{ display: 'block', margin: '10px 0' }}>Click here to download the dataset we used in our paper.</a>
+        <a href="./original_papers.json" download style={{ display: 'block', margin: '10px 0' }}>Click here to download the dataset we used in our paper.</a>
       </p>
       <p>
-        <a href="/papers.json" download style={{ display: 'block', margin: '10px 0' }}>Click here to download the dataset used in this website.</a>
+        <a href="./papers.json" download style={{ display: 'block', margin: '10px 0' }}>Click here to download the dataset used in this website.</a>
       </p>
       <p>
         <a href="https://github.com/morgen52/SE-artifact">Our GitHub repository
-        <Image src="/icons/github-icon.webp" alt="github" width={25} height={25} />
+        <Image src="./icons/github-icon.webp" alt="github" width={25} height={25} />
         </a>
       </p>
 

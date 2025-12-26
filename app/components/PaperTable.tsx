@@ -144,7 +144,7 @@ const PaperTable: React.FC<PaperTableProps> = ({ papers }) => {
                         {paper.repo_name && (
                            <LinkStyle href={paper.code_link} target="_blank" rel="noopener noreferrer">
                               {paper.repo_name}
-                              <Image src="/icons/github-icon.webp" alt="github" width={25} height={25} />
+                              <Image src="./icons/github-icon.webp" alt="github" width={25} height={25} />
                            </LinkStyle>)}
                      </td>
                      <td>
